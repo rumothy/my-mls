@@ -10,7 +10,9 @@ import { Container, Row, Col } from "./components/Grid";
 class App extends Component {
   state = {
     recipes: [],
-    recipeSearch: ""
+    recipeSearch: "",
+    properties: [],
+    propertySearch: ""
   };
 
   handleInputChange = event => {
@@ -22,11 +24,19 @@ class App extends Component {
     });
   };
 
-  handleFormSubmit = event => {
+  handleRecipeSubmit = event => {
     // When the form is submitted, prevent its default behavior, get recipes update the recipes state
     event.preventDefault();
     API.getRecipes(this.state.recipeSearch)
       .then(res => this.setState({ recipes: res.data }))
+      .catch(err => console.log(err));
+  };
+
+  handlePropertySubmit = event => {
+    // When the form is submitted, prevent its default behavior, get recipes update the recipes state
+    event.preventDefault();
+    API.getProperties(this.state.propertySearch)
+      .then(res => this.setState({ properties: res.data }))
       .catch(err => console.log(err));
   };
 
@@ -51,7 +61,26 @@ class App extends Component {
                     </Col>
                     <Col size="xs-3 sm-2">
                       <Button
-                        onClick={this.handleFormSubmit}
+                        onClick={this.handleRecipeSubmit}
+                        type="success"
+                        className="input-lg"
+                      >
+                        Search
+                      </Button>
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Col size="xs-9 sm-10">
+                      <Input
+                        name="propertySearch"
+                        value={this.state.propertySearch}
+                        onChange={this.handleInputChange}
+                        placeholder="Search For a Property"
+                      />
+                    </Col>
+                    <Col size="xs-3 sm-2">
+                      <Button
+                        onClick={this.handlePropertySubmit}
                         type="success"
                         className="input-lg"
                       >
