@@ -1,0 +1,6396 @@
+[
+  {
+    "id": 1,
+    "name": "Twitterwire",
+    "street": "9 Helena Circle",
+    "city": "Jacksonville",
+    "state": "Florida",
+    "available": false,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Under Construction",
+    "developer": "Oxford Industries, Inc.",
+    "floors": 79,
+    "units": [
+      {
+        "id": 1,
+        "name": 122,
+        "price": "$6625184.38",
+        "floor": 91,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 2,
+        "name": 905,
+        "price": "$4308674.15",
+        "floor": 41,
+        "bedrooms": 2,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 3,
+        "name": 377,
+        "price": "$2603394.11",
+        "floor": 94,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 4,
+        "name": 983,
+        "price": "$12687032.16",
+        "floor": 98,
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 5,
+        "name": 159,
+        "price": "$3593306.42",
+        "floor": 100,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 6,
+        "name": 336,
+        "price": "$8857535.90",
+        "floor": 47,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 7,
+        "name": 303,
+        "price": "$15207368.68",
+        "floor": 66,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 8,
+        "name": 867,
+        "price": "$18031293.02",
+        "floor": 95,
+        "bedrooms": 5,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 9,
+        "name": 316,
+        "price": "$10794537.27",
+        "floor": 46,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 10,
+        "name": 790,
+        "price": "$5292443.88",
+        "floor": 62,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 11,
+        "name": 982,
+        "price": "$14980471.06",
+        "floor": 92,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 12,
+        "name": 127,
+        "price": "$2101138.60",
+        "floor": 66,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 13,
+        "name": 309,
+        "price": "$8472280.13",
+        "floor": 42,
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 14,
+        "name": 349,
+        "price": "$5885666.08",
+        "floor": 91,
+        "bedrooms": 2,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 15,
+        "name": 194,
+        "price": "$4757834.22",
+        "floor": 48,
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 16,
+        "name": 679,
+        "price": "$10297354.10",
+        "floor": 61,
+        "bedrooms": 5,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 17,
+        "name": 718,
+        "price": "$12281706.43",
+        "floor": 55,
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 18,
+        "name": 195,
+        "price": "$1533540.26",
+        "floor": 69,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 19,
+        "name": 213,
+        "price": "$17720381.70",
+        "floor": 48,
+        "bedrooms": 2,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 20,
+        "name": 955,
+        "price": "$4297991.88",
+        "floor": 71,
+        "bedrooms": 4,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 21,
+        "name": 586,
+        "price": "$1233581.25",
+        "floor": 87,
+        "bedrooms": 5,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 22,
+        "name": 324,
+        "price": "$3937683.86",
+        "floor": 78,
+        "bedrooms": 5,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 23,
+        "name": 250,
+        "price": "$14943223.70",
+        "floor": 90,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 24,
+        "name": 100,
+        "price": "$6830055.49",
+        "floor": 93,
+        "bedrooms": 4,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 25,
+        "name": 113,
+        "price": "$11803582.51",
+        "floor": 92,
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 26,
+        "name": 793,
+        "price": "$17351040.39",
+        "floor": 78,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 27,
+        "name": 273,
+        "price": "$793775.45",
+        "floor": 85,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 28,
+        "name": 713,
+        "price": "$7508152.78",
+        "floor": 40,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 29,
+        "name": 513,
+        "price": "$8187799.26",
+        "floor": 57,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 30,
+        "name": 383,
+        "price": "$18563704.26",
+        "floor": 66,
+        "bedrooms": 5,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 31,
+        "name": 243,
+        "price": "$4782761.78",
+        "floor": 77,
+        "bedrooms": 5,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 32,
+        "name": 265,
+        "price": "$12986363.09",
+        "floor": 87,
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 33,
+        "name": 789,
+        "price": "$18156445.26",
+        "floor": 47,
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 34,
+        "name": 264,
+        "price": "$3342829.63",
+        "floor": 83,
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 35,
+        "name": 113,
+        "price": "$5253271.33",
+        "floor": 100,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 36,
+        "name": 268,
+        "price": "$15202775.88",
+        "floor": 44,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 37,
+        "name": 245,
+        "price": "$15357580.29",
+        "floor": 73,
+        "bedrooms": 1,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 38,
+        "name": 551,
+        "price": "$18988145.92",
+        "floor": 71,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 39,
+        "name": 157,
+        "price": "$18605912.99",
+        "floor": 95,
+        "bedrooms": 1,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 40,
+        "name": 344,
+        "price": "$1078925.82",
+        "floor": 84,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 41,
+        "name": 338,
+        "price": "$15104211.98",
+        "floor": 43,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 42,
+        "name": 656,
+        "price": "$7750511.97",
+        "floor": 47,
+        "bedrooms": 2,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 43,
+        "name": 383,
+        "price": "$5233314.25",
+        "floor": 88,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 44,
+        "name": 731,
+        "price": "$12392014.63",
+        "floor": 40,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 45,
+        "name": 467,
+        "price": "$3428474.69",
+        "floor": 50,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 46,
+        "name": 684,
+        "price": "$17799065.14",
+        "floor": 57,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 47,
+        "name": 120,
+        "price": "$6684475.51",
+        "floor": 64,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 48,
+        "name": 679,
+        "price": "$15042649.41",
+        "floor": 42,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 49,
+        "name": 466,
+        "price": "$6123363.66",
+        "floor": 47,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 50,
+        "name": 164,
+        "price": "$8620958.91",
+        "floor": 48,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 51,
+        "name": 240,
+        "price": "$3011735.12",
+        "floor": 89,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 52,
+        "name": 395,
+        "price": "$6807997.67",
+        "floor": 87,
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 53,
+        "name": 221,
+        "price": "$12925816.70",
+        "floor": 92,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 54,
+        "name": 902,
+        "price": "$10225787.41",
+        "floor": 49,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 55,
+        "name": 139,
+        "price": "$14088046.05",
+        "floor": 60,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 56,
+        "name": 417,
+        "price": "$12104444.65",
+        "floor": 60,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 57,
+        "name": 588,
+        "price": "$17179093.73",
+        "floor": 73,
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 58,
+        "name": 909,
+        "price": "$13830137.81",
+        "floor": 58,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 59,
+        "name": 443,
+        "price": "$17550715.39",
+        "floor": 47,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 60,
+        "name": 929,
+        "price": "$8800640.26",
+        "floor": 99,
+        "bedrooms": 5,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 61,
+        "name": 208,
+        "price": "$14588934.92",
+        "floor": 41,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 62,
+        "name": 248,
+        "price": "$2794780.05",
+        "floor": 100,
+        "bedrooms": 4,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 63,
+        "name": 112,
+        "price": "$563057.16",
+        "floor": 58,
+        "bedrooms": 5,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 64,
+        "name": 588,
+        "price": "$821042.26",
+        "floor": 50,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 65,
+        "name": 481,
+        "price": "$1941436.79",
+        "floor": 87,
+        "bedrooms": 1,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 66,
+        "name": 720,
+        "price": "$13271646.23",
+        "floor": 59,
+        "bedrooms": 2,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 67,
+        "name": 188,
+        "price": "$7146680.30",
+        "floor": 50,
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 68,
+        "name": 164,
+        "price": "$9719467.70",
+        "floor": 76,
+        "bedrooms": 5,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 69,
+        "name": 481,
+        "price": "$11508564.90",
+        "floor": 86,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 70,
+        "name": 258,
+        "price": "$3421245.09",
+        "floor": 85,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 71,
+        "name": 668,
+        "price": "$5148084.41",
+        "floor": 44,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 72,
+        "name": 952,
+        "price": "$13163834.23",
+        "floor": 54,
+        "bedrooms": 5,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 73,
+        "name": 233,
+        "price": "$689405.05",
+        "floor": 91,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 74,
+        "name": 391,
+        "price": "$6801690.13",
+        "floor": 98,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 75,
+        "name": 510,
+        "price": "$16839953.21",
+        "floor": 57,
+        "bedrooms": 5,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 76,
+        "name": 601,
+        "price": "$2663812.22",
+        "floor": 42,
+        "bedrooms": 2,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 77,
+        "name": 730,
+        "price": "$16651230.32",
+        "floor": 69,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 78,
+        "name": 295,
+        "price": "$5252474.64",
+        "floor": 67,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 79,
+        "name": 459,
+        "price": "$19996658.38",
+        "floor": 92,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 80,
+        "name": 245,
+        "price": "$8532996.71",
+        "floor": 42,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 81,
+        "name": 282,
+        "price": "$4150585.69",
+        "floor": 86,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 82,
+        "name": 461,
+        "price": "$12612917.30",
+        "floor": 83,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 83,
+        "name": 674,
+        "price": "$13018657.75",
+        "floor": 88,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 84,
+        "name": 620,
+        "price": "$13808028.02",
+        "floor": 93,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 85,
+        "name": 218,
+        "price": "$19570844.32",
+        "floor": 87,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 86,
+        "name": 473,
+        "price": "$8945986.28",
+        "floor": 83,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 87,
+        "name": 339,
+        "price": "$4236284.16",
+        "floor": 63,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 88,
+        "name": 611,
+        "price": "$13658178.73",
+        "floor": 43,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 89,
+        "name": 446,
+        "price": "$13634370.44",
+        "floor": 64,
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 90,
+        "name": 920,
+        "price": "$12503729.41",
+        "floor": 50,
+        "bedrooms": 5,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 91,
+        "name": 440,
+        "price": "$8133485.42",
+        "floor": 97,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 92,
+        "name": 895,
+        "price": "$4517153.89",
+        "floor": 44,
+        "bedrooms": 5,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 93,
+        "name": 629,
+        "price": "$16418562.92",
+        "floor": 57,
+        "bedrooms": 5,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 94,
+        "name": 958,
+        "price": "$8373054.52",
+        "floor": 92,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 95,
+        "name": 756,
+        "price": "$3913055.66",
+        "floor": 60,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 96,
+        "name": 582,
+        "price": "$10447116.39",
+        "floor": 61,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 97,
+        "name": 465,
+        "price": "$3011477.51",
+        "floor": 40,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 98,
+        "name": 523,
+        "price": "$3648916.60",
+        "floor": 40,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 99,
+        "name": 285,
+        "price": "$12978687.84",
+        "floor": 77,
+        "bedrooms": 5,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 100,
+        "name": 187,
+        "price": "$12814620.36",
+        "floor": 42,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "available": false
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Jabberbean",
+    "street": "24526 Cascade Drive",
+    "city": "Greensboro",
+    "state": "North Carolina",
+    "available": true,
+    "sales_status": "Sold Out",
+    "construction_status": "Planning",
+    "developer": "Honeywell International Inc.",
+    "floors": 95,
+    "units": [
+      {
+        "id": 1,
+        "name": 251,
+        "price": "$17102533.50",
+        "floor": 46,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 2,
+        "name": 974,
+        "price": "$11417465.76",
+        "floor": 90,
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 3,
+        "name": 699,
+        "price": "$17414286.91",
+        "floor": 84,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 4,
+        "name": 255,
+        "price": "$15466737.76",
+        "floor": 52,
+        "bedrooms": 2,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 5,
+        "name": 776,
+        "price": "$14508069.10",
+        "floor": 86,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 6,
+        "name": 975,
+        "price": "$4260186.18",
+        "floor": 86,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 7,
+        "name": 403,
+        "price": "$16765241.20",
+        "floor": 45,
+        "bedrooms": 4,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 8,
+        "name": 425,
+        "price": "$5217094.35",
+        "floor": 84,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 9,
+        "name": 381,
+        "price": "$18493512.32",
+        "floor": 93,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 10,
+        "name": 346,
+        "price": "$13839144.11",
+        "floor": 80,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Blognation",
+    "street": "2486 Brickson Park Trail",
+    "city": "Dallas",
+    "state": "Texas",
+    "available": false,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Planning",
+    "developer": "BlackRock Capital Investment Corporation",
+    "floors": 96,
+    "units": [
+      {
+        "id": 1,
+        "name": 122,
+        "price": "$6625184.38",
+        "floor": 91,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 2,
+        "name": 905,
+        "price": "$4308674.15",
+        "floor": 41,
+        "bedrooms": 2,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 3,
+        "name": 377,
+        "price": "$2603394.11",
+        "floor": 94,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 4,
+        "name": 983,
+        "price": "$12687032.16",
+        "floor": 98,
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 5,
+        "name": 159,
+        "price": "$3593306.42",
+        "floor": 100,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 6,
+        "name": 336,
+        "price": "$8857535.90",
+        "floor": 47,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 7,
+        "name": 303,
+        "price": "$15207368.68",
+        "floor": 66,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 8,
+        "name": 867,
+        "price": "$18031293.02",
+        "floor": 95,
+        "bedrooms": 5,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 9,
+        "name": 316,
+        "price": "$10794537.27",
+        "floor": 46,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 10,
+        "name": 790,
+        "price": "$5292443.88",
+        "floor": 62,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 11,
+        "name": 982,
+        "price": "$14980471.06",
+        "floor": 92,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 12,
+        "name": 127,
+        "price": "$2101138.60",
+        "floor": 66,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 13,
+        "name": 309,
+        "price": "$8472280.13",
+        "floor": 42,
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 14,
+        "name": 349,
+        "price": "$5885666.08",
+        "floor": 91,
+        "bedrooms": 2,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 15,
+        "name": 194,
+        "price": "$4757834.22",
+        "floor": 48,
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 16,
+        "name": 679,
+        "price": "$10297354.10",
+        "floor": 61,
+        "bedrooms": 5,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 17,
+        "name": 718,
+        "price": "$12281706.43",
+        "floor": 55,
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 18,
+        "name": 195,
+        "price": "$1533540.26",
+        "floor": 69,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 19,
+        "name": 213,
+        "price": "$17720381.70",
+        "floor": 48,
+        "bedrooms": 2,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 20,
+        "name": 955,
+        "price": "$4297991.88",
+        "floor": 71,
+        "bedrooms": 4,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 21,
+        "name": 586,
+        "price": "$1233581.25",
+        "floor": 87,
+        "bedrooms": 5,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 22,
+        "name": 324,
+        "price": "$3937683.86",
+        "floor": 78,
+        "bedrooms": 5,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 23,
+        "name": 250,
+        "price": "$14943223.70",
+        "floor": 90,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 24,
+        "name": 100,
+        "price": "$6830055.49",
+        "floor": 93,
+        "bedrooms": 4,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 25,
+        "name": 113,
+        "price": "$11803582.51",
+        "floor": 92,
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 26,
+        "name": 793,
+        "price": "$17351040.39",
+        "floor": 78,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 27,
+        "name": 273,
+        "price": "$793775.45",
+        "floor": 85,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 28,
+        "name": 713,
+        "price": "$7508152.78",
+        "floor": 40,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 29,
+        "name": 513,
+        "price": "$8187799.26",
+        "floor": 57,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 30,
+        "name": 383,
+        "price": "$18563704.26",
+        "floor": 66,
+        "bedrooms": 5,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 31,
+        "name": 243,
+        "price": "$4782761.78",
+        "floor": 77,
+        "bedrooms": 5,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 32,
+        "name": 265,
+        "price": "$12986363.09",
+        "floor": 87,
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 33,
+        "name": 789,
+        "price": "$18156445.26",
+        "floor": 47,
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 34,
+        "name": 264,
+        "price": "$3342829.63",
+        "floor": 83,
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 35,
+        "name": 113,
+        "price": "$5253271.33",
+        "floor": 100,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 36,
+        "name": 268,
+        "price": "$15202775.88",
+        "floor": 44,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 37,
+        "name": 245,
+        "price": "$15357580.29",
+        "floor": 73,
+        "bedrooms": 1,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 38,
+        "name": 551,
+        "price": "$18988145.92",
+        "floor": 71,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 39,
+        "name": 157,
+        "price": "$18605912.99",
+        "floor": 95,
+        "bedrooms": 1,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 40,
+        "name": 344,
+        "price": "$1078925.82",
+        "floor": 84,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 41,
+        "name": 338,
+        "price": "$15104211.98",
+        "floor": 43,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 42,
+        "name": 656,
+        "price": "$7750511.97",
+        "floor": 47,
+        "bedrooms": 2,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 43,
+        "name": 383,
+        "price": "$5233314.25",
+        "floor": 88,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 44,
+        "name": 731,
+        "price": "$12392014.63",
+        "floor": 40,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 45,
+        "name": 467,
+        "price": "$3428474.69",
+        "floor": 50,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 46,
+        "name": 684,
+        "price": "$17799065.14",
+        "floor": 57,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 47,
+        "name": 120,
+        "price": "$6684475.51",
+        "floor": 64,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 48,
+        "name": 679,
+        "price": "$15042649.41",
+        "floor": 42,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 49,
+        "name": 466,
+        "price": "$6123363.66",
+        "floor": 47,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 50,
+        "name": 164,
+        "price": "$8620958.91",
+        "floor": 48,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 51,
+        "name": 240,
+        "price": "$3011735.12",
+        "floor": 89,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 52,
+        "name": 395,
+        "price": "$6807997.67",
+        "floor": 87,
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 53,
+        "name": 221,
+        "price": "$12925816.70",
+        "floor": 92,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 54,
+        "name": 902,
+        "price": "$10225787.41",
+        "floor": 49,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 55,
+        "name": 139,
+        "price": "$14088046.05",
+        "floor": 60,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 56,
+        "name": 417,
+        "price": "$12104444.65",
+        "floor": 60,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 57,
+        "name": 588,
+        "price": "$17179093.73",
+        "floor": 73,
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 58,
+        "name": 909,
+        "price": "$13830137.81",
+        "floor": 58,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 59,
+        "name": 443,
+        "price": "$17550715.39",
+        "floor": 47,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 60,
+        "name": 929,
+        "price": "$8800640.26",
+        "floor": 99,
+        "bedrooms": 5,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 61,
+        "name": 208,
+        "price": "$14588934.92",
+        "floor": 41,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 62,
+        "name": 248,
+        "price": "$2794780.05",
+        "floor": 100,
+        "bedrooms": 4,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 63,
+        "name": 112,
+        "price": "$563057.16",
+        "floor": 58,
+        "bedrooms": 5,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 64,
+        "name": 588,
+        "price": "$821042.26",
+        "floor": 50,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 65,
+        "name": 481,
+        "price": "$1941436.79",
+        "floor": 87,
+        "bedrooms": 1,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 66,
+        "name": 720,
+        "price": "$13271646.23",
+        "floor": 59,
+        "bedrooms": 2,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 67,
+        "name": 188,
+        "price": "$7146680.30",
+        "floor": 50,
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 68,
+        "name": 164,
+        "price": "$9719467.70",
+        "floor": 76,
+        "bedrooms": 5,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 69,
+        "name": 481,
+        "price": "$11508564.90",
+        "floor": 86,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 70,
+        "name": 258,
+        "price": "$3421245.09",
+        "floor": 85,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 71,
+        "name": 668,
+        "price": "$5148084.41",
+        "floor": 44,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 72,
+        "name": 952,
+        "price": "$13163834.23",
+        "floor": 54,
+        "bedrooms": 5,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 73,
+        "name": 233,
+        "price": "$689405.05",
+        "floor": 91,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 74,
+        "name": 391,
+        "price": "$6801690.13",
+        "floor": 98,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 75,
+        "name": 510,
+        "price": "$16839953.21",
+        "floor": 57,
+        "bedrooms": 5,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 76,
+        "name": 601,
+        "price": "$2663812.22",
+        "floor": 42,
+        "bedrooms": 2,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 77,
+        "name": 730,
+        "price": "$16651230.32",
+        "floor": 69,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 78,
+        "name": 295,
+        "price": "$5252474.64",
+        "floor": 67,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 79,
+        "name": 459,
+        "price": "$19996658.38",
+        "floor": 92,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 80,
+        "name": 245,
+        "price": "$8532996.71",
+        "floor": 42,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 81,
+        "name": 282,
+        "price": "$4150585.69",
+        "floor": 86,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 82,
+        "name": 461,
+        "price": "$12612917.30",
+        "floor": 83,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 83,
+        "name": 674,
+        "price": "$13018657.75",
+        "floor": 88,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 84,
+        "name": 620,
+        "price": "$13808028.02",
+        "floor": 93,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 85,
+        "name": 218,
+        "price": "$19570844.32",
+        "floor": 87,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 86,
+        "name": 473,
+        "price": "$8945986.28",
+        "floor": 83,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 87,
+        "name": 339,
+        "price": "$4236284.16",
+        "floor": 63,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 88,
+        "name": 611,
+        "price": "$13658178.73",
+        "floor": 43,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 89,
+        "name": 446,
+        "price": "$13634370.44",
+        "floor": 64,
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 90,
+        "name": 920,
+        "price": "$12503729.41",
+        "floor": 50,
+        "bedrooms": 5,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 91,
+        "name": 440,
+        "price": "$8133485.42",
+        "floor": 97,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 92,
+        "name": 895,
+        "price": "$4517153.89",
+        "floor": 44,
+        "bedrooms": 5,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 93,
+        "name": 629,
+        "price": "$16418562.92",
+        "floor": 57,
+        "bedrooms": 5,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 94,
+        "name": 958,
+        "price": "$8373054.52",
+        "floor": 92,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 95,
+        "name": 756,
+        "price": "$3913055.66",
+        "floor": 60,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 96,
+        "name": 582,
+        "price": "$10447116.39",
+        "floor": 61,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 97,
+        "name": 465,
+        "price": "$3011477.51",
+        "floor": 40,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 98,
+        "name": 523,
+        "price": "$3648916.60",
+        "floor": 40,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 99,
+        "name": 285,
+        "price": "$12978687.84",
+        "floor": 77,
+        "bedrooms": 5,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 100,
+        "name": 187,
+        "price": "$12814620.36",
+        "floor": 42,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "available": false
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Skivee",
+    "street": "59770 Mendota Court",
+    "city": "Colorado Springs",
+    "state": "Colorado",
+    "available": true,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Built",
+    "developer": "Nuveen Dow 30SM Dynamic Overwrite Fund",
+    "floors": 46,
+    "units": [
+      {
+        "id": 1,
+        "name": 251,
+        "price": "$17102533.50",
+        "floor": 46,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 2,
+        "name": 974,
+        "price": "$11417465.76",
+        "floor": 90,
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 3,
+        "name": 699,
+        "price": "$17414286.91",
+        "floor": 84,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 4,
+        "name": 255,
+        "price": "$15466737.76",
+        "floor": 52,
+        "bedrooms": 2,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 5,
+        "name": 776,
+        "price": "$14508069.10",
+        "floor": 86,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 6,
+        "name": 975,
+        "price": "$4260186.18",
+        "floor": 86,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 7,
+        "name": 403,
+        "price": "$16765241.20",
+        "floor": 45,
+        "bedrooms": 4,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 8,
+        "name": 425,
+        "price": "$5217094.35",
+        "floor": 84,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 9,
+        "name": 381,
+        "price": "$18493512.32",
+        "floor": 93,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 10,
+        "name": 346,
+        "price": "$13839144.11",
+        "floor": 80,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": false
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Fivebridge",
+    "street": "156 Loftsgordon Pass",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "available": true,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Built",
+    "developer": "Computer Programs and Systems, Inc.",
+    "floors": 42,
+    "units": [
+      {
+        "id": 1,
+        "name": 122,
+        "price": "$6625184.38",
+        "floor": 91,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 2,
+        "name": 905,
+        "price": "$4308674.15",
+        "floor": 41,
+        "bedrooms": 2,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 3,
+        "name": 377,
+        "price": "$2603394.11",
+        "floor": 94,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 4,
+        "name": 983,
+        "price": "$12687032.16",
+        "floor": 98,
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 5,
+        "name": 159,
+        "price": "$3593306.42",
+        "floor": 100,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 6,
+        "name": 336,
+        "price": "$8857535.90",
+        "floor": 47,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 7,
+        "name": 303,
+        "price": "$15207368.68",
+        "floor": 66,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 8,
+        "name": 867,
+        "price": "$18031293.02",
+        "floor": 95,
+        "bedrooms": 5,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 9,
+        "name": 316,
+        "price": "$10794537.27",
+        "floor": 46,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 10,
+        "name": 790,
+        "price": "$5292443.88",
+        "floor": 62,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 11,
+        "name": 982,
+        "price": "$14980471.06",
+        "floor": 92,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 12,
+        "name": 127,
+        "price": "$2101138.60",
+        "floor": 66,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 13,
+        "name": 309,
+        "price": "$8472280.13",
+        "floor": 42,
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 14,
+        "name": 349,
+        "price": "$5885666.08",
+        "floor": 91,
+        "bedrooms": 2,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 15,
+        "name": 194,
+        "price": "$4757834.22",
+        "floor": 48,
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 16,
+        "name": 679,
+        "price": "$10297354.10",
+        "floor": 61,
+        "bedrooms": 5,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 17,
+        "name": 718,
+        "price": "$12281706.43",
+        "floor": 55,
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 18,
+        "name": 195,
+        "price": "$1533540.26",
+        "floor": 69,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 19,
+        "name": 213,
+        "price": "$17720381.70",
+        "floor": 48,
+        "bedrooms": 2,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 20,
+        "name": 955,
+        "price": "$4297991.88",
+        "floor": 71,
+        "bedrooms": 4,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 21,
+        "name": 586,
+        "price": "$1233581.25",
+        "floor": 87,
+        "bedrooms": 5,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 22,
+        "name": 324,
+        "price": "$3937683.86",
+        "floor": 78,
+        "bedrooms": 5,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 23,
+        "name": 250,
+        "price": "$14943223.70",
+        "floor": 90,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 24,
+        "name": 100,
+        "price": "$6830055.49",
+        "floor": 93,
+        "bedrooms": 4,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 25,
+        "name": 113,
+        "price": "$11803582.51",
+        "floor": 92,
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 26,
+        "name": 793,
+        "price": "$17351040.39",
+        "floor": 78,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 27,
+        "name": 273,
+        "price": "$793775.45",
+        "floor": 85,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 28,
+        "name": 713,
+        "price": "$7508152.78",
+        "floor": 40,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 29,
+        "name": 513,
+        "price": "$8187799.26",
+        "floor": 57,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 30,
+        "name": 383,
+        "price": "$18563704.26",
+        "floor": 66,
+        "bedrooms": 5,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 31,
+        "name": 243,
+        "price": "$4782761.78",
+        "floor": 77,
+        "bedrooms": 5,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 32,
+        "name": 265,
+        "price": "$12986363.09",
+        "floor": 87,
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 33,
+        "name": 789,
+        "price": "$18156445.26",
+        "floor": 47,
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 34,
+        "name": 264,
+        "price": "$3342829.63",
+        "floor": 83,
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 35,
+        "name": 113,
+        "price": "$5253271.33",
+        "floor": 100,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 36,
+        "name": 268,
+        "price": "$15202775.88",
+        "floor": 44,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 37,
+        "name": 245,
+        "price": "$15357580.29",
+        "floor": 73,
+        "bedrooms": 1,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 38,
+        "name": 551,
+        "price": "$18988145.92",
+        "floor": 71,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 39,
+        "name": 157,
+        "price": "$18605912.99",
+        "floor": 95,
+        "bedrooms": 1,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 40,
+        "name": 344,
+        "price": "$1078925.82",
+        "floor": 84,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 41,
+        "name": 338,
+        "price": "$15104211.98",
+        "floor": 43,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 42,
+        "name": 656,
+        "price": "$7750511.97",
+        "floor": 47,
+        "bedrooms": 2,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 43,
+        "name": 383,
+        "price": "$5233314.25",
+        "floor": 88,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 44,
+        "name": 731,
+        "price": "$12392014.63",
+        "floor": 40,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 45,
+        "name": 467,
+        "price": "$3428474.69",
+        "floor": 50,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 46,
+        "name": 684,
+        "price": "$17799065.14",
+        "floor": 57,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 47,
+        "name": 120,
+        "price": "$6684475.51",
+        "floor": 64,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 48,
+        "name": 679,
+        "price": "$15042649.41",
+        "floor": 42,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 49,
+        "name": 466,
+        "price": "$6123363.66",
+        "floor": 47,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 50,
+        "name": 164,
+        "price": "$8620958.91",
+        "floor": 48,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 51,
+        "name": 240,
+        "price": "$3011735.12",
+        "floor": 89,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 52,
+        "name": 395,
+        "price": "$6807997.67",
+        "floor": 87,
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 53,
+        "name": 221,
+        "price": "$12925816.70",
+        "floor": 92,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 54,
+        "name": 902,
+        "price": "$10225787.41",
+        "floor": 49,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 55,
+        "name": 139,
+        "price": "$14088046.05",
+        "floor": 60,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 56,
+        "name": 417,
+        "price": "$12104444.65",
+        "floor": 60,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 57,
+        "name": 588,
+        "price": "$17179093.73",
+        "floor": 73,
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 58,
+        "name": 909,
+        "price": "$13830137.81",
+        "floor": 58,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 59,
+        "name": 443,
+        "price": "$17550715.39",
+        "floor": 47,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 60,
+        "name": 929,
+        "price": "$8800640.26",
+        "floor": 99,
+        "bedrooms": 5,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 61,
+        "name": 208,
+        "price": "$14588934.92",
+        "floor": 41,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 62,
+        "name": 248,
+        "price": "$2794780.05",
+        "floor": 100,
+        "bedrooms": 4,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 63,
+        "name": 112,
+        "price": "$563057.16",
+        "floor": 58,
+        "bedrooms": 5,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 64,
+        "name": 588,
+        "price": "$821042.26",
+        "floor": 50,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 65,
+        "name": 481,
+        "price": "$1941436.79",
+        "floor": 87,
+        "bedrooms": 1,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 66,
+        "name": 720,
+        "price": "$13271646.23",
+        "floor": 59,
+        "bedrooms": 2,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 67,
+        "name": 188,
+        "price": "$7146680.30",
+        "floor": 50,
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 68,
+        "name": 164,
+        "price": "$9719467.70",
+        "floor": 76,
+        "bedrooms": 5,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 69,
+        "name": 481,
+        "price": "$11508564.90",
+        "floor": 86,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 70,
+        "name": 258,
+        "price": "$3421245.09",
+        "floor": 85,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 71,
+        "name": 668,
+        "price": "$5148084.41",
+        "floor": 44,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 72,
+        "name": 952,
+        "price": "$13163834.23",
+        "floor": 54,
+        "bedrooms": 5,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 73,
+        "name": 233,
+        "price": "$689405.05",
+        "floor": 91,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 74,
+        "name": 391,
+        "price": "$6801690.13",
+        "floor": 98,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 75,
+        "name": 510,
+        "price": "$16839953.21",
+        "floor": 57,
+        "bedrooms": 5,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 76,
+        "name": 601,
+        "price": "$2663812.22",
+        "floor": 42,
+        "bedrooms": 2,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 77,
+        "name": 730,
+        "price": "$16651230.32",
+        "floor": 69,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 78,
+        "name": 295,
+        "price": "$5252474.64",
+        "floor": 67,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 79,
+        "name": 459,
+        "price": "$19996658.38",
+        "floor": 92,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 80,
+        "name": 245,
+        "price": "$8532996.71",
+        "floor": 42,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 81,
+        "name": 282,
+        "price": "$4150585.69",
+        "floor": 86,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 82,
+        "name": 461,
+        "price": "$12612917.30",
+        "floor": 83,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 83,
+        "name": 674,
+        "price": "$13018657.75",
+        "floor": 88,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 84,
+        "name": 620,
+        "price": "$13808028.02",
+        "floor": 93,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 85,
+        "name": 218,
+        "price": "$19570844.32",
+        "floor": 87,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 86,
+        "name": 473,
+        "price": "$8945986.28",
+        "floor": 83,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 87,
+        "name": 339,
+        "price": "$4236284.16",
+        "floor": 63,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 88,
+        "name": 611,
+        "price": "$13658178.73",
+        "floor": 43,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 89,
+        "name": 446,
+        "price": "$13634370.44",
+        "floor": 64,
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 90,
+        "name": 920,
+        "price": "$12503729.41",
+        "floor": 50,
+        "bedrooms": 5,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 91,
+        "name": 440,
+        "price": "$8133485.42",
+        "floor": 97,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 92,
+        "name": 895,
+        "price": "$4517153.89",
+        "floor": 44,
+        "bedrooms": 5,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 93,
+        "name": 629,
+        "price": "$16418562.92",
+        "floor": 57,
+        "bedrooms": 5,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 94,
+        "name": 958,
+        "price": "$8373054.52",
+        "floor": 92,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 95,
+        "name": 756,
+        "price": "$3913055.66",
+        "floor": 60,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 96,
+        "name": 582,
+        "price": "$10447116.39",
+        "floor": 61,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 97,
+        "name": 465,
+        "price": "$3011477.51",
+        "floor": 40,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 98,
+        "name": 523,
+        "price": "$3648916.60",
+        "floor": 40,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 99,
+        "name": 285,
+        "price": "$12978687.84",
+        "floor": 77,
+        "bedrooms": 5,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 100,
+        "name": 187,
+        "price": "$12814620.36",
+        "floor": 42,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "available": false
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Katz",
+    "street": "064 Grasskamp Terrace",
+    "city": "Springfield",
+    "state": "Missouri",
+    "available": false,
+    "sales_status": "Sold Out",
+    "construction_status": "Pre-Launch",
+    "developer": "First Trust Multi-Asset Diversified Income Index Fund",
+    "floors": 50,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Kayveo",
+    "street": "09 Lake View Junction",
+    "city": "Gainesville",
+    "state": "Georgia",
+    "available": true,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Planning",
+    "developer": "NQ Mobile Inc.",
+    "floors": 62,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Minyx",
+    "street": "606 Ludington Drive",
+    "city": "San Antonio",
+    "state": "Texas",
+    "available": true,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Planning",
+    "developer": "Boyd Gaming Corporation",
+    "floors": 47,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Skalith",
+    "street": "1856 Thackeray Junction",
+    "city": "Fort Wayne",
+    "state": "Indiana",
+    "available": true,
+    "sales_status": "In-Sales",
+    "construction_status": "Pre-Launch",
+    "developer": "athenahealth, Inc.",
+    "floors": 68,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Buzzshare",
+    "street": "47212 Melody Court",
+    "city": "Mobile",
+    "state": "Alabama",
+    "available": false,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Under Construction",
+    "developer": "Syntel, Inc.",
+    "floors": 59,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Roodel",
+    "street": "91954 Vermont Center",
+    "city": "Riverside",
+    "state": "California",
+    "available": true,
+    "sales_status": "In-Sales",
+    "construction_status": "Built",
+    "developer": "CytomX Therapeutics, Inc.",
+    "floors": 85,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Yambee",
+    "street": "10971 Almo Court",
+    "city": "Baltimore",
+    "state": "Maryland",
+    "available": false,
+    "sales_status": "Sold Out",
+    "construction_status": "Built",
+    "developer": "Assured Guaranty Ltd.",
+    "floors": 43,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Photobug",
+    "street": "05 Red Cloud Parkway",
+    "city": "Saint Louis",
+    "state": "Missouri",
+    "available": false,
+    "sales_status": "Sold Out",
+    "construction_status": "Planning",
+    "developer": "Eaton Vance NextShares Trust II",
+    "floors": 69,
+    "units": [
+      {
+        "id": 1,
+        "name": 260,
+        "price": "$1620023.66",
+        "floor": 91,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 2,
+        "name": 286,
+        "price": "$7722951.38",
+        "floor": 92,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 3,
+        "name": 151,
+        "price": "$17925578.48",
+        "floor": 72,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 4,
+        "name": 103,
+        "price": "$7627892.01",
+        "floor": 87,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 5,
+        "name": 816,
+        "price": "$18688001.25",
+        "floor": 48,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 6,
+        "name": 414,
+        "price": "$17441233.20",
+        "floor": 63,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 7,
+        "name": 704,
+        "price": "$1522298.82",
+        "floor": 64,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 8,
+        "name": 729,
+        "price": "$12314269.13",
+        "floor": 94,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 9,
+        "name": 820,
+        "price": "$16337550.01",
+        "floor": 57,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 10,
+        "name": 410,
+        "price": "$1480060.92",
+        "floor": 91,
+        "bedrooms": 5,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 11,
+        "name": 727,
+        "price": "$5189520.40",
+        "floor": 91,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 12,
+        "name": 854,
+        "price": "$5970738.90",
+        "floor": 92,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 13,
+        "name": 929,
+        "price": "$15455243.80",
+        "floor": 97,
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 14,
+        "name": 128,
+        "price": "$13434354.94",
+        "floor": 73,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 15,
+        "name": 286,
+        "price": "$11315494.08",
+        "floor": 41,
+        "bedrooms": 5,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 16,
+        "name": 929,
+        "price": "$1575270.56",
+        "floor": 40,
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 17,
+        "name": 589,
+        "price": "$19002222.51",
+        "floor": 85,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 18,
+        "name": 718,
+        "price": "$11158739.32",
+        "floor": 46,
+        "bedrooms": 4,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 19,
+        "name": 168,
+        "price": "$16063448.07",
+        "floor": 85,
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 20,
+        "name": 232,
+        "price": "$12415363.11",
+        "floor": 62,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Flashpoint",
+    "street": "2714 Vera Avenue",
+    "city": "Houston",
+    "state": "Texas",
+    "available": true,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Planning",
+    "developer": "Signature Bank",
+    "floors": 61,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Devshare",
+    "street": "8 Florence Drive",
+    "city": "Cincinnati",
+    "state": "Ohio",
+    "available": false,
+    "sales_status": "Sold Out",
+    "construction_status": "Under Construction",
+    "developer": "OneMain Holdings, Inc.",
+    "floors": 43,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Skidoo",
+    "street": "419 Onsgard Trail",
+    "city": "Bradenton",
+    "state": "Florida",
+    "available": false,
+    "sales_status": "In-Sales",
+    "construction_status": "Planning",
+    "developer": "Strattec Security Corporation",
+    "floors": 59,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Babblestorm",
+    "street": "9 Cody Point",
+    "city": "Roanoke",
+    "state": "Virginia",
+    "available": false,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Under Construction",
+    "developer": "Charter Financial Corp.",
+    "floors": 51,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Snaptags",
+    "street": "5 Katie Street",
+    "city": "Washington",
+    "state": "District of Columbia",
+    "available": true,
+    "sales_status": "Sold Out",
+    "construction_status": "Under Construction",
+    "developer": "Healthcare Trust of America, Inc.",
+    "floors": 78,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Camimbo",
+    "street": "212 Sauthoff Circle",
+    "city": "Houston",
+    "state": "Texas",
+    "available": true,
+    "sales_status": "Sold Out",
+    "construction_status": "Pre-Launch",
+    "developer": "Banner Corporation",
+    "floors": 95,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Skynoodle",
+    "street": "0301 Holmberg Road",
+    "city": "Pensacola",
+    "state": "Florida",
+    "available": true,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Pre-Launch",
+    "developer": "Analogic Corporation",
+    "floors": 83,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Realpoint",
+    "street": "9345 Kim Junction",
+    "city": "San Jose",
+    "state": "California",
+    "available": false,
+    "sales_status": "Sold Out",
+    "construction_status": "Pre-Launch",
+    "developer": "Kewaunee Scientific Corporation",
+    "floors": 89,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Quatz",
+    "street": "1966 Schmedeman Lane",
+    "city": "Detroit",
+    "state": "Michigan",
+    "available": false,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Under Construction",
+    "developer": "Kayne Anderson Energy Development Company",
+    "floors": 49,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 23,
+    "name": "BlogXS",
+    "street": "32 2nd Crossing",
+    "city": "Clearwater",
+    "state": "Florida",
+    "available": false,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Planning",
+    "developer": "3M Company",
+    "floors": 56,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Skimia",
+    "street": "9 Lakewood Gardens Hill",
+    "city": "Norfolk",
+    "state": "Virginia",
+    "available": true,
+    "sales_status": "Sold Out",
+    "construction_status": "Planning",
+    "developer": "bluebird bio, Inc.",
+    "floors": 94,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Bubbletube",
+    "street": "03 Bartelt Avenue",
+    "city": "Olympia",
+    "state": "Washington",
+    "available": true,
+    "sales_status": "Sold Out",
+    "construction_status": "Planning",
+    "developer": "Buckle, Inc. (The)",
+    "floors": 48,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 26,
+    "name": "LiveZ",
+    "street": "3 Macpherson Trail",
+    "city": "Jamaica",
+    "state": "New York",
+    "available": true,
+    "sales_status": "Sold Out",
+    "construction_status": "Built",
+    "developer": "Tilly's, Inc.",
+    "floors": 80,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Eare",
+    "street": "394 Golf Street",
+    "city": "Colorado Springs",
+    "state": "Colorado",
+    "available": false,
+    "sales_status": "In-Sales",
+    "construction_status": "Under Construction",
+    "developer": "Intevac, Inc.",
+    "floors": 89,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Divanoodle",
+    "street": "1 Goodland Terrace",
+    "city": "Phoenix",
+    "state": "Arizona",
+    "available": false,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Built",
+    "developer": "Exxon Mobil Corporation",
+    "floors": 57,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Gigashots",
+    "street": "920 Nelson Park",
+    "city": "Norfolk",
+    "state": "Virginia",
+    "available": true,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Under Construction",
+    "developer": "FlexShares Credit-Scored US Corporate Bond Index Fund",
+    "floors": 84,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Zoonder",
+    "street": "27924 Lillian Terrace",
+    "city": "Harrisburg",
+    "state": "Pennsylvania",
+    "available": true,
+    "sales_status": "Sold Out",
+    "construction_status": "Under Construction",
+    "developer": "Alpine Global Premier Properties Fund",
+    "floors": 76,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Browsebug",
+    "street": "1813 Sloan Crossing",
+    "city": "Corpus Christi",
+    "state": "Texas",
+    "available": false,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Built",
+    "developer": "Ashford Hospitality Trust Inc",
+    "floors": 68,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Feedfish",
+    "street": "12 Riverside Hill",
+    "city": "Brockton",
+    "state": "Massachusetts",
+    "available": false,
+    "sales_status": "Sold Out",
+    "construction_status": "Built",
+    "developer": "Special Opportunities Fund Inc.",
+    "floors": 79,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Katz",
+    "street": "4 Cardinal Way",
+    "city": "Jeffersonville",
+    "state": "Indiana",
+    "available": false,
+    "sales_status": "Sold Out",
+    "construction_status": "Pre-Launch",
+    "developer": "J. W. Mays, Inc.",
+    "floors": 58,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Babblestorm",
+    "street": "7 Debs Avenue",
+    "city": "Sacramento",
+    "state": "California",
+    "available": false,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Built",
+    "developer": "Williams-Sonoma, Inc.",
+    "floors": 40,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Yabox",
+    "street": "79810 Bowman Place",
+    "city": "Shreveport",
+    "state": "Louisiana",
+    "available": true,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Planning",
+    "developer": "Prestige Brand Holdings, Inc.",
+    "floors": 89,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Shufflester",
+    "street": "47326 Montana Parkway",
+    "city": "Huntsville",
+    "state": "Texas",
+    "available": false,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Under Construction",
+    "developer": "NL Industries, Inc.",
+    "floors": 78,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Quimm",
+    "street": "13625 Westridge Crossing",
+    "city": "Houston",
+    "state": "Texas",
+    "available": false,
+    "sales_status": "In-Sales",
+    "construction_status": "Planning",
+    "developer": "Valeant Pharmaceuticals International, Inc.",
+    "floors": 64,
+    "units": [
+      {
+        "id": 1,
+        "name": 396,
+        "price": "$18186506.37",
+        "floor": 63,
+        "bedrooms": 5,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 2,
+        "name": 602,
+        "price": "$8327883.57",
+        "floor": 83,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 3,
+        "name": 170,
+        "price": "$17292893.25",
+        "floor": 49,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 4,
+        "name": 394,
+        "price": "$11540152.19",
+        "floor": 42,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 5,
+        "name": 181,
+        "price": "$3319799.33",
+        "floor": 68,
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 6,
+        "name": 573,
+        "price": "$12792383.32",
+        "floor": 73,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 7,
+        "name": 852,
+        "price": "$18601958.33",
+        "floor": 50,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 8,
+        "name": 587,
+        "price": "$4600897.70",
+        "floor": 77,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 9,
+        "name": 998,
+        "price": "$19704587.07",
+        "floor": 47,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 10,
+        "name": 818,
+        "price": "$18822580.00",
+        "floor": 56,
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 11,
+        "name": 872,
+        "price": "$5433889.62",
+        "floor": 66,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 12,
+        "name": 269,
+        "price": "$14788667.89",
+        "floor": 82,
+        "bedrooms": 4,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 13,
+        "name": 190,
+        "price": "$5423302.27",
+        "floor": 62,
+        "bedrooms": 5,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 14,
+        "name": 609,
+        "price": "$17685399.15",
+        "floor": 48,
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 15,
+        "name": 958,
+        "price": "$4108150.03",
+        "floor": 95,
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 16,
+        "name": 303,
+        "price": "$887453.29",
+        "floor": 41,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 17,
+        "name": 702,
+        "price": "$1643490.43",
+        "floor": 59,
+        "bedrooms": 2,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 18,
+        "name": 149,
+        "price": "$7999636.77",
+        "floor": 70,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 19,
+        "name": 777,
+        "price": "$13585678.78",
+        "floor": 51,
+        "bedrooms": 1,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 20,
+        "name": 717,
+        "price": "$18051601.57",
+        "floor": 55,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 21,
+        "name": 444,
+        "price": "$7690428.73",
+        "floor": 81,
+        "bedrooms": 5,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 22,
+        "name": 762,
+        "price": "$12254735.62",
+        "floor": 97,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 23,
+        "name": 595,
+        "price": "$17721302.57",
+        "floor": 60,
+        "bedrooms": 5,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 24,
+        "name": 875,
+        "price": "$2100660.07",
+        "floor": 50,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 25,
+        "name": 526,
+        "price": "$11556016.13",
+        "floor": 57,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 26,
+        "name": 232,
+        "price": "$7528007.82",
+        "floor": 47,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 27,
+        "name": 454,
+        "price": "$15352271.18",
+        "floor": 63,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 28,
+        "name": 306,
+        "price": "$14630445.92",
+        "floor": 53,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 29,
+        "name": 809,
+        "price": "$9836848.74",
+        "floor": 82,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 30,
+        "name": 707,
+        "price": "$12729391.20",
+        "floor": 55,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 31,
+        "name": 917,
+        "price": "$4109311.85",
+        "floor": 88,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 32,
+        "name": 241,
+        "price": "$9946182.46",
+        "floor": 61,
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 33,
+        "name": 402,
+        "price": "$1906557.36",
+        "floor": 89,
+        "bedrooms": 4,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 34,
+        "name": 862,
+        "price": "$14696720.31",
+        "floor": 82,
+        "bedrooms": 1,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 35,
+        "name": 234,
+        "price": "$1876600.84",
+        "floor": 76,
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 36,
+        "name": 427,
+        "price": "$4763681.49",
+        "floor": 92,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 37,
+        "name": 869,
+        "price": "$3848139.65",
+        "floor": 69,
+        "bedrooms": 2,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 38,
+        "name": 661,
+        "price": "$15868656.90",
+        "floor": 77,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 39,
+        "name": 642,
+        "price": "$15341875.72",
+        "floor": 95,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 40,
+        "name": 482,
+        "price": "$4297460.24",
+        "floor": 92,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 41,
+        "name": 266,
+        "price": "$16756574.47",
+        "floor": 78,
+        "bedrooms": 2,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 42,
+        "name": 883,
+        "price": "$10207253.22",
+        "floor": 75,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 43,
+        "name": 562,
+        "price": "$7534427.15",
+        "floor": 87,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 44,
+        "name": 689,
+        "price": "$1896543.70",
+        "floor": 85,
+        "bedrooms": 5,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 45,
+        "name": 812,
+        "price": "$10012265.46",
+        "floor": 99,
+        "bedrooms": 2,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 46,
+        "name": 477,
+        "price": "$946210.39",
+        "floor": 48,
+        "bedrooms": 2,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 47,
+        "name": 585,
+        "price": "$8107680.73",
+        "floor": 67,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 48,
+        "name": 129,
+        "price": "$9662419.19",
+        "floor": 52,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 49,
+        "name": 305,
+        "price": "$16287283.97",
+        "floor": 66,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 50,
+        "name": 572,
+        "price": "$5462023.82",
+        "floor": 58,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 51,
+        "name": 665,
+        "price": "$2864117.23",
+        "floor": 43,
+        "bedrooms": 2,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 52,
+        "name": 665,
+        "price": "$17193887.53",
+        "floor": 72,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 53,
+        "name": 518,
+        "price": "$18377409.62",
+        "floor": 73,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 54,
+        "name": 913,
+        "price": "$10395789.92",
+        "floor": 62,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 55,
+        "name": 333,
+        "price": "$1366347.08",
+        "floor": 45,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 56,
+        "name": 240,
+        "price": "$19953320.15",
+        "floor": 58,
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 57,
+        "name": 525,
+        "price": "$15980888.55",
+        "floor": 67,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 58,
+        "name": 885,
+        "price": "$12189422.83",
+        "floor": 43,
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 59,
+        "name": 624,
+        "price": "$17122673.94",
+        "floor": 49,
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 60,
+        "name": 919,
+        "price": "$18672231.34",
+        "floor": 56,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 61,
+        "name": 776,
+        "price": "$4055399.38",
+        "floor": 68,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 62,
+        "name": 390,
+        "price": "$1003702.80",
+        "floor": 45,
+        "bedrooms": 2,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 63,
+        "name": 468,
+        "price": "$4385267.03",
+        "floor": 87,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 64,
+        "name": 866,
+        "price": "$18181300.07",
+        "floor": 77,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 65,
+        "name": 928,
+        "price": "$2670048.82",
+        "floor": 77,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 66,
+        "name": 327,
+        "price": "$6875627.43",
+        "floor": 70,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 67,
+        "name": 384,
+        "price": "$7697100.68",
+        "floor": 63,
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 68,
+        "name": 863,
+        "price": "$15299334.34",
+        "floor": 81,
+        "bedrooms": 2,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 69,
+        "name": 475,
+        "price": "$18683862.09",
+        "floor": 53,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 70,
+        "name": 817,
+        "price": "$12221318.67",
+        "floor": 61,
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 71,
+        "name": 266,
+        "price": "$16497675.66",
+        "floor": 76,
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 72,
+        "name": 258,
+        "price": "$8884310.69",
+        "floor": 90,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 73,
+        "name": 899,
+        "price": "$8437627.69",
+        "floor": 70,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 74,
+        "name": 450,
+        "price": "$10774238.97",
+        "floor": 62,
+        "bedrooms": 5,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 75,
+        "name": 824,
+        "price": "$15731765.87",
+        "floor": 90,
+        "bedrooms": 2,
+        "bathrooms": 4,
+        "available": false
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Brainlounge",
+    "street": "956 Blaine Way",
+    "city": "Tuscaloosa",
+    "state": "Alabama",
+    "available": false,
+    "sales_status": "Sold Out",
+    "construction_status": "Planning",
+    "developer": "Tocagen Inc.",
+    "floors": 47,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Oyonder",
+    "street": "55646 West Terrace",
+    "city": "Houston",
+    "state": "Texas",
+    "available": false,
+    "sales_status": "Sold Out",
+    "construction_status": "Pre-Launch",
+    "developer": "Fidelity Southern Corporation",
+    "floors": 88,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Voomm",
+    "street": "2 Green Hill",
+    "city": "Grand Forks",
+    "state": "North Dakota",
+    "available": true,
+    "sales_status": "In-Sales",
+    "construction_status": "Under Construction",
+    "developer": "America Movil, S.A.B. de C.V.",
+    "floors": 95,
+    "units": [
+      {
+        "id": 1,
+        "name": 389,
+        "price": "$13060581.85",
+        "floor": 45,
+        "bedrooms": 2,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 2,
+        "name": 656,
+        "price": "$6831829.08",
+        "floor": 79,
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 3,
+        "name": 228,
+        "price": "$8460375.07",
+        "floor": 84,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 4,
+        "name": 350,
+        "price": "$15786742.04",
+        "floor": 88,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 5,
+        "name": 906,
+        "price": "$17951829.64",
+        "floor": 86,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 6,
+        "name": 299,
+        "price": "$3826849.78",
+        "floor": 92,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 7,
+        "name": 819,
+        "price": "$16218282.88",
+        "floor": 53,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 8,
+        "name": 260,
+        "price": "$19062890.72",
+        "floor": 90,
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 9,
+        "name": 110,
+        "price": "$10017244.73",
+        "floor": 93,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 10,
+        "name": 184,
+        "price": "$18281718.95",
+        "floor": 90,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 11,
+        "name": 746,
+        "price": "$12267499.01",
+        "floor": 66,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 12,
+        "name": 727,
+        "price": "$4059102.21",
+        "floor": 73,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 13,
+        "name": 683,
+        "price": "$18226903.63",
+        "floor": 55,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 14,
+        "name": 386,
+        "price": "$3941736.52",
+        "floor": 43,
+        "bedrooms": 5,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 15,
+        "name": 982,
+        "price": "$9435818.03",
+        "floor": 93,
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 16,
+        "name": 620,
+        "price": "$16800253.02",
+        "floor": 85,
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 17,
+        "name": 402,
+        "price": "$8371446.49",
+        "floor": 83,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 18,
+        "name": 136,
+        "price": "$1176757.25",
+        "floor": 74,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 19,
+        "name": 900,
+        "price": "$15590438.48",
+        "floor": 83,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 20,
+        "name": 258,
+        "price": "$14162394.74",
+        "floor": 63,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 21,
+        "name": 659,
+        "price": "$16414232.86",
+        "floor": 80,
+        "bedrooms": 2,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 22,
+        "name": 653,
+        "price": "$6946011.91",
+        "floor": 76,
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 23,
+        "name": 506,
+        "price": "$8502312.11",
+        "floor": 87,
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 24,
+        "name": 466,
+        "price": "$15320810.38",
+        "floor": 73,
+        "bedrooms": 4,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 25,
+        "name": 292,
+        "price": "$3487313.36",
+        "floor": 48,
+        "bedrooms": 5,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 26,
+        "name": 335,
+        "price": "$16868476.63",
+        "floor": 81,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 27,
+        "name": 210,
+        "price": "$17893567.22",
+        "floor": 72,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 28,
+        "name": 420,
+        "price": "$13019113.11",
+        "floor": 90,
+        "bedrooms": 2,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 29,
+        "name": 564,
+        "price": "$4202700.89",
+        "floor": 73,
+        "bedrooms": 4,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 30,
+        "name": 713,
+        "price": "$15229857.20",
+        "floor": 76,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 31,
+        "name": 602,
+        "price": "$15608725.93",
+        "floor": 51,
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 32,
+        "name": 691,
+        "price": "$13661738.57",
+        "floor": 99,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 33,
+        "name": 908,
+        "price": "$18423470.82",
+        "floor": 45,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 34,
+        "name": 920,
+        "price": "$4527372.35",
+        "floor": 69,
+        "bedrooms": 5,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 35,
+        "name": 176,
+        "price": "$14259387.65",
+        "floor": 92,
+        "bedrooms": 5,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 36,
+        "name": 755,
+        "price": "$9454118.28",
+        "floor": 43,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 37,
+        "name": 737,
+        "price": "$15457039.50",
+        "floor": 87,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 38,
+        "name": 654,
+        "price": "$9667665.95",
+        "floor": 78,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 39,
+        "name": 534,
+        "price": "$5478025.68",
+        "floor": 100,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 40,
+        "name": 609,
+        "price": "$2083714.91",
+        "floor": 91,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 41,
+        "name": 717,
+        "price": "$6292875.81",
+        "floor": 91,
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 42,
+        "name": 206,
+        "price": "$15442576.11",
+        "floor": 92,
+        "bedrooms": 5,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 43,
+        "name": 994,
+        "price": "$14331376.70",
+        "floor": 53,
+        "bedrooms": 4,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 44,
+        "name": 389,
+        "price": "$4932007.64",
+        "floor": 40,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 45,
+        "name": 982,
+        "price": "$17298430.58",
+        "floor": 41,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 46,
+        "name": 351,
+        "price": "$18441274.23",
+        "floor": 67,
+        "bedrooms": 5,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 47,
+        "name": 345,
+        "price": "$11837548.40",
+        "floor": 78,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 48,
+        "name": 479,
+        "price": "$13959424.45",
+        "floor": 81,
+        "bedrooms": 1,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 49,
+        "name": 746,
+        "price": "$17478910.40",
+        "floor": 81,
+        "bedrooms": 5,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 50,
+        "name": 639,
+        "price": "$12071513.43",
+        "floor": 57,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": false
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Mybuzz",
+    "street": "9 Lillian Terrace",
+    "city": "Albany",
+    "state": "New York",
+    "available": true,
+    "sales_status": "In-Sales",
+    "construction_status": "Built",
+    "developer": "Bank of America Corporation",
+    "floors": 63,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Wikivu",
+    "street": "7 Bartillon Parkway",
+    "city": "Longview",
+    "state": "Texas",
+    "available": true,
+    "sales_status": "Sold Out",
+    "construction_status": "Planning",
+    "developer": "Euroseas Ltd.",
+    "floors": 81,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Skivee",
+    "street": "665 Thierer Terrace",
+    "city": "Pittsburgh",
+    "state": "Pennsylvania",
+    "available": true,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Planning",
+    "developer": "Clovis Oncology, Inc.",
+    "floors": 43,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Fivespan",
+    "street": "63 Thackeray Pass",
+    "city": "Waterbury",
+    "state": "Connecticut",
+    "available": false,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Planning",
+    "developer": "Acasti Pharma, Inc.",
+    "floors": 100,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Meejo",
+    "street": "97 Utah Plaza",
+    "city": "Denver",
+    "state": "Colorado",
+    "available": true,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Pre-Launch",
+    "developer": "Putnam Municipal Opportunities Trust",
+    "floors": 76,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Blogspan",
+    "street": "94 Thierer Drive",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "available": false,
+    "sales_status": "Sold Out",
+    "construction_status": "Built",
+    "developer": "Esterline Technologies Corporation",
+    "floors": 44,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Oyoyo",
+    "street": "3 Hanover Terrace",
+    "city": "Sacramento",
+    "state": "California",
+    "available": false,
+    "sales_status": "In-Sales",
+    "construction_status": "Planning",
+    "developer": "Eaton Vance Short Diversified Income Fund",
+    "floors": 86,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Skalith",
+    "street": "2 Village Green Court",
+    "city": "Kansas City",
+    "state": "Kansas",
+    "available": true,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Pre-Launch",
+    "developer": "Envision Healthcare Corporation",
+    "floors": 51,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Miboo",
+    "street": "0785 Sommers Plaza",
+    "city": "Trenton",
+    "state": "New Jersey",
+    "available": false,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Built",
+    "developer": "iShares MSCI UAE Capped ETF",
+    "floors": 62,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Flipopia",
+    "street": "395 Green Park",
+    "city": "Newark",
+    "state": "New Jersey",
+    "available": false,
+    "sales_status": "Sold Out",
+    "construction_status": "Planning",
+    "developer": "Five9, Inc.",
+    "floors": 69,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Jabberbean",
+    "street": "98 Mcguire Road",
+    "city": "Detroit",
+    "state": "Michigan",
+    "available": false,
+    "sales_status": "In-Sales",
+    "construction_status": "Pre-Launch",
+    "developer": "Ocean Power Technologies, Inc.",
+    "floors": 45,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Zava",
+    "street": "1574 Ohio Junction",
+    "city": "New York City",
+    "state": "New York",
+    "available": true,
+    "sales_status": "In-Sales",
+    "construction_status": "Planning",
+    "developer": "SunTrust Banks, Inc.",
+    "floors": 53,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Tavu",
+    "street": "46733 South Plaza",
+    "city": "Wilkes Barre",
+    "state": "Pennsylvania",
+    "available": false,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Pre-Launch",
+    "developer": "EnerNOC, Inc.",
+    "floors": 43,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Shufflester",
+    "street": "1496 Heath Center",
+    "city": "Salt Lake City",
+    "state": "Utah",
+    "available": false,
+    "sales_status": "In-Sales",
+    "construction_status": "Planning",
+    "developer": "Energous Corporation",
+    "floors": 72,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Trupe",
+    "street": "26362 Ruskin Lane",
+    "city": "Shreveport",
+    "state": "Louisiana",
+    "available": false,
+    "sales_status": "In-Sales",
+    "construction_status": "Planning",
+    "developer": "CST Brands, Inc.",
+    "floors": 84,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Wikivu",
+    "street": "4126 Bultman Crossing",
+    "city": "Toledo",
+    "state": "Ohio",
+    "available": false,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Built",
+    "developer": "YuMe, Inc.",
+    "floors": 75,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Jabbercube",
+    "street": "407 Northfield Street",
+    "city": "Terre Haute",
+    "state": "Indiana",
+    "available": true,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Built",
+    "developer": "The Herzfeld Caribbean Basin Fund, Inc.",
+    "floors": 45,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Kwideo",
+    "street": "5 Pine View Parkway",
+    "city": "Jacksonville",
+    "state": "Florida",
+    "available": false,
+    "sales_status": "Sold Out",
+    "construction_status": "Under Construction",
+    "developer": "EPR Properties",
+    "floors": 61,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Snaptags",
+    "street": "13374 Mayer Court",
+    "city": "Inglewood",
+    "state": "California",
+    "available": false,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Planning",
+    "developer": "Heat Biologics, Inc.",
+    "floors": 80,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Vipe",
+    "street": "0624 Commercial Road",
+    "city": "Staten Island",
+    "state": "New York",
+    "available": false,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Under Construction",
+    "developer": "Safeguard Scientifics, Inc.",
+    "floors": 82,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Ainyx",
+    "street": "15966 Blackbird Park",
+    "city": "Roanoke",
+    "state": "Virginia",
+    "available": true,
+    "sales_status": "Sold Out",
+    "construction_status": "Built",
+    "developer": "Nustar Energy L.P.",
+    "floors": 46,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Linkbuzz",
+    "street": "3 Artisan Alley",
+    "city": "Spokane",
+    "state": "Washington",
+    "available": false,
+    "sales_status": "In-Sales",
+    "construction_status": "Built",
+    "developer": "Sprouts Farmers Market, Inc.",
+    "floors": 66,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Gigabox",
+    "street": "2021 Emmet Pass",
+    "city": "Colorado Springs",
+    "state": "Colorado",
+    "available": true,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Under Construction",
+    "developer": "Buffalo Wild Wings, Inc.",
+    "floors": 73,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Riffpedia",
+    "street": "29757 Eastlawn Place",
+    "city": "Lafayette",
+    "state": "Indiana",
+    "available": true,
+    "sales_status": "In-Sales",
+    "construction_status": "Under Construction",
+    "developer": "NXT-ID Inc.",
+    "floors": 89,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Roodel",
+    "street": "17300 Porter Way",
+    "city": "White Plains",
+    "state": "New York",
+    "available": true,
+    "sales_status": "In-Sales",
+    "construction_status": "Under Construction",
+    "developer": "Kelly Services, Inc.",
+    "floors": 96,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Meetz",
+    "street": "2936 Canary Trail",
+    "city": "Columbia",
+    "state": "South Carolina",
+    "available": true,
+    "sales_status": "Sold Out",
+    "construction_status": "Pre-Launch",
+    "developer": "PhaseRx, Inc.",
+    "floors": 84,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Leexo",
+    "street": "28270 Debs Parkway",
+    "city": "Trenton",
+    "state": "New Jersey",
+    "available": true,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Built",
+    "developer": "Globant S.A.",
+    "floors": 66,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Shuffledrive",
+    "street": "78654 Kinsman Street",
+    "city": "Vienna",
+    "state": "Virginia",
+    "available": true,
+    "sales_status": "In-Sales",
+    "construction_status": "Pre-Launch",
+    "developer": "Twenty-First Century Fox, Inc.",
+    "floors": 47,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Skyndu",
+    "street": "052 Ludington Center",
+    "city": "Washington",
+    "state": "District of Columbia",
+    "available": false,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Planning",
+    "developer": "Centrais Electricas Brasileiras S.A.- Eletrobras",
+    "floors": 55,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Innotype",
+    "street": "070 Charing Cross Avenue",
+    "city": "Philadelphia",
+    "state": "Pennsylvania",
+    "available": true,
+    "sales_status": "Sold Out",
+    "construction_status": "Built",
+    "developer": "Ichor Holdings",
+    "floors": 73,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Twitterbeat",
+    "street": "92366 Shopko Point",
+    "city": "Morgantown",
+    "state": "West Virginia",
+    "available": true,
+    "sales_status": "Sold Out",
+    "construction_status": "Planning",
+    "developer": "Ventas, Inc.",
+    "floors": 91,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Rhyloo",
+    "street": "4608 Eastwood Trail",
+    "city": "Minneapolis",
+    "state": "Minnesota",
+    "available": false,
+    "sales_status": "In-Sales",
+    "construction_status": "Pre-Launch",
+    "developer": "Staples, Inc.",
+    "floors": 89,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Voonix",
+    "street": "8 Stang Alley",
+    "city": "Knoxville",
+    "state": "Tennessee",
+    "available": true,
+    "sales_status": "Sold Out",
+    "construction_status": "Built",
+    "developer": "Fairmount Santrol Holdings Inc.",
+    "floors": 83,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Meevee",
+    "street": "52 Sachs Junction",
+    "city": "Brockton",
+    "state": "Massachusetts",
+    "available": false,
+    "sales_status": "Sold Out",
+    "construction_status": "Planning",
+    "developer": "Blue Buffalo Pet Products, Inc.",
+    "floors": 45,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Bubblebox",
+    "street": "664 Sauthoff Plaza",
+    "city": "Fort Myers",
+    "state": "Florida",
+    "available": true,
+    "sales_status": "In-Sales",
+    "construction_status": "Pre-Launch",
+    "developer": "Louisiana-Pacific Corporation",
+    "floors": 89,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Yombu",
+    "street": "5879 Fair Oaks Alley",
+    "city": "Washington",
+    "state": "District of Columbia",
+    "available": false,
+    "sales_status": "In-Sales",
+    "construction_status": "Planning",
+    "developer": "Nustar GP Holdings, LLC",
+    "floors": 90,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Yabox",
+    "street": "6942 Lakewood Gardens Avenue",
+    "city": "Columbus",
+    "state": "Ohio",
+    "available": false,
+    "sales_status": "In-Sales",
+    "construction_status": "Built",
+    "developer": "Cellular Biomedicine Group, Inc.",
+    "floors": 51,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Photobean",
+    "street": "60 Morrow Terrace",
+    "city": "New York City",
+    "state": "New York",
+    "available": true,
+    "sales_status": "In-Sales",
+    "construction_status": "Pre-Launch",
+    "developer": "The Gabelli Healthcare & Wellness Trust",
+    "floors": 54,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Dynazzy",
+    "street": "9268 Everett Plaza",
+    "city": "Spring",
+    "state": "Texas",
+    "available": true,
+    "sales_status": "In-Sales",
+    "construction_status": "Built",
+    "developer": "SunCoke Energy Partners, L.P.",
+    "floors": 53,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Realfire",
+    "street": "8 Walton Junction",
+    "city": "Honolulu",
+    "state": "Hawaii",
+    "available": false,
+    "sales_status": "Sold Out",
+    "construction_status": "Under Construction",
+    "developer": "Akari Therapeutics Plc",
+    "floors": 69,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Cogibox",
+    "street": "67 Porter Drive",
+    "city": "New Castle",
+    "state": "Pennsylvania",
+    "available": true,
+    "sales_status": "In-Sales",
+    "construction_status": "Planning",
+    "developer": "Blackrock MuniEnhanced Fund, Inc.",
+    "floors": 84,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Skajo",
+    "street": "521 Corben Circle",
+    "city": "Scottsdale",
+    "state": "Arizona",
+    "available": true,
+    "sales_status": "Sold Out",
+    "construction_status": "Planning",
+    "developer": "Strata Skin Sciences, Inc.",
+    "floors": 59,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Yakitri",
+    "street": "8 Stone Corner Drive",
+    "city": "Dallas",
+    "state": "Texas",
+    "available": false,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Planning",
+    "developer": "Fortune Brands Home & Security, Inc.",
+    "floors": 99,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Skilith",
+    "street": "05 Alpine Junction",
+    "city": "Peoria",
+    "state": "Illinois",
+    "available": false,
+    "sales_status": "Sold Out",
+    "construction_status": "Planning",
+    "developer": "BeyondSpring, Inc.",
+    "floors": 59,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Centimia",
+    "street": "274 Northridge Terrace",
+    "city": "Amarillo",
+    "state": "Texas",
+    "available": true,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Planning",
+    "developer": "Papa John's International, Inc.",
+    "floors": 40,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Leexo",
+    "street": "57833 Pepper Wood Road",
+    "city": "Carson City",
+    "state": "Nevada",
+    "available": false,
+    "sales_status": "Sold Out",
+    "construction_status": "Pre-Launch",
+    "developer": "PAR Technology Corporation",
+    "floors": 42,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Shufflebeat",
+    "street": "580 Iowa Way",
+    "city": "Oklahoma City",
+    "state": "Oklahoma",
+    "available": false,
+    "sales_status": "Sold Out",
+    "construction_status": "Planning",
+    "developer": "Monolithic Power Systems, Inc.",
+    "floors": 51,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Jabbertype",
+    "street": "393 Florence Point",
+    "city": "Saint Louis",
+    "state": "Missouri",
+    "available": true,
+    "sales_status": "Sold Out",
+    "construction_status": "Planning",
+    "developer": "Jensyn Acquistion Corp.",
+    "floors": 63,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Ainyx",
+    "street": "6856 Sachtjen Point",
+    "city": "New York City",
+    "state": "New York",
+    "available": false,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Planning",
+    "developer": "American Homes 4 Rent",
+    "floors": 95,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Kazio",
+    "street": "1419 Cordelia Center",
+    "city": "Savannah",
+    "state": "Georgia",
+    "available": false,
+    "sales_status": "In-Sales",
+    "construction_status": "Under Construction",
+    "developer": "Enviva Partners, LP",
+    "floors": 66,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Feednation",
+    "street": "136 8th Road",
+    "city": "Madison",
+    "state": "Wisconsin",
+    "available": true,
+    "sales_status": "In-Sales",
+    "construction_status": "Under Construction",
+    "developer": "Bank of America Corporation",
+    "floors": 71,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Eazzy",
+    "street": "860 Londonderry Center",
+    "city": "Oklahoma City",
+    "state": "Oklahoma",
+    "available": true,
+    "sales_status": "In-Sales",
+    "construction_status": "Planning",
+    "developer": "MYOS RENS Technology Inc.",
+    "floors": 87,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Tagfeed",
+    "street": "81166 Paget Court",
+    "city": "Denver",
+    "state": "Colorado",
+    "available": true,
+    "sales_status": "In-Sales",
+    "construction_status": "Pre-Launch",
+    "developer": "Genomic Health, Inc.",
+    "floors": 54,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Muxo",
+    "street": "60338 Lunder Point",
+    "city": "Albuquerque",
+    "state": "New Mexico",
+    "available": true,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Pre-Launch",
+    "developer": "DTE Energy Company",
+    "floors": 56,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Rooxo",
+    "street": "00 Havey Point",
+    "city": "Kansas City",
+    "state": "Missouri",
+    "available": false,
+    "sales_status": "In-Sales",
+    "construction_status": "Planning",
+    "developer": "Gores Holdings II, Inc.",
+    "floors": 65,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Blogtag",
+    "street": "7940 Morning Crossing",
+    "city": "Norman",
+    "state": "Oklahoma",
+    "available": true,
+    "sales_status": "In-Sales",
+    "construction_status": "Under Construction",
+    "developer": "Brown Forman Corporation",
+    "floors": 82,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Demivee",
+    "street": "67786 Declaration Pass",
+    "city": "Bakersfield",
+    "state": "California",
+    "available": true,
+    "sales_status": "Pre-Sales",
+    "construction_status": "Pre-Launch",
+    "developer": "First Trust Intermediate Duration Preferred & Income Fund",
+    "floors": 41,
+    "units": [
+      {}
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Pixonyx",
+    "street": "21 Lotheville Trail",
+    "city": "Lafayette",
+    "state": "Louisiana",
+    "available": false,
+    "sales_status": "In-Sales",
+    "construction_status": "Planning",
+    "developer": "FibroGen, Inc",
+    "floors": 86,
+    "units": [
+      {
+        "id": 1,
+        "name": 950,
+        "price": "$8428299.99",
+        "floor": 98,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 2,
+        "name": 429,
+        "price": "$9821271.43",
+        "floor": 41,
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 3,
+        "name": 368,
+        "price": "$8908627.54",
+        "floor": 44,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 4,
+        "name": 336,
+        "price": "$2340617.51",
+        "floor": 67,
+        "bedrooms": 2,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 5,
+        "name": 729,
+        "price": "$8790422.78",
+        "floor": 69,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 6,
+        "name": 592,
+        "price": "$14837764.53",
+        "floor": 43,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 7,
+        "name": 692,
+        "price": "$9315558.14",
+        "floor": 41,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 8,
+        "name": 565,
+        "price": "$9266647.65",
+        "floor": 90,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 9,
+        "name": 403,
+        "price": "$10297698.34",
+        "floor": 76,
+        "bedrooms": 5,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 10,
+        "name": 431,
+        "price": "$16785885.03",
+        "floor": 90,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 11,
+        "name": 712,
+        "price": "$2779447.59",
+        "floor": 94,
+        "bedrooms": 2,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 12,
+        "name": 719,
+        "price": "$11004710.54",
+        "floor": 41,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 13,
+        "name": 490,
+        "price": "$16477813.76",
+        "floor": 79,
+        "bedrooms": 5,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 14,
+        "name": 205,
+        "price": "$11193927.18",
+        "floor": 51,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 15,
+        "name": 806,
+        "price": "$16859510.25",
+        "floor": 98,
+        "bedrooms": 2,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 16,
+        "name": 789,
+        "price": "$18956766.76",
+        "floor": 86,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 17,
+        "name": 889,
+        "price": "$15402443.50",
+        "floor": 98,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 18,
+        "name": 198,
+        "price": "$18660424.71",
+        "floor": 49,
+        "bedrooms": 5,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 19,
+        "name": 790,
+        "price": "$8006732.36",
+        "floor": 97,
+        "bedrooms": 5,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 20,
+        "name": 274,
+        "price": "$5703073.63",
+        "floor": 47,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 21,
+        "name": 544,
+        "price": "$3730948.84",
+        "floor": 76,
+        "bedrooms": 5,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 22,
+        "name": 435,
+        "price": "$3704300.37",
+        "floor": 70,
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 23,
+        "name": 190,
+        "price": "$5190181.19",
+        "floor": 59,
+        "bedrooms": 2,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 24,
+        "name": 528,
+        "price": "$939612.13",
+        "floor": 79,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 25,
+        "name": 216,
+        "price": "$8319305.53",
+        "floor": 72,
+        "bedrooms": 4,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 26,
+        "name": 894,
+        "price": "$19269804.91",
+        "floor": 58,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 27,
+        "name": 181,
+        "price": "$658579.39",
+        "floor": 89,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 28,
+        "name": 595,
+        "price": "$14537765.61",
+        "floor": 84,
+        "bedrooms": 1,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 29,
+        "name": 342,
+        "price": "$19487171.90",
+        "floor": 44,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 30,
+        "name": 251,
+        "price": "$4941763.26",
+        "floor": 68,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 31,
+        "name": 660,
+        "price": "$18103631.19",
+        "floor": 50,
+        "bedrooms": 2,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 32,
+        "name": 705,
+        "price": "$10377495.75",
+        "floor": 96,
+        "bedrooms": 2,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 33,
+        "name": 622,
+        "price": "$15546487.32",
+        "floor": 47,
+        "bedrooms": 1,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 34,
+        "name": 478,
+        "price": "$5832030.56",
+        "floor": 44,
+        "bedrooms": 5,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 35,
+        "name": 792,
+        "price": "$14248053.88",
+        "floor": 84,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 36,
+        "name": 853,
+        "price": "$2387933.99",
+        "floor": 87,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 37,
+        "name": 549,
+        "price": "$14779438.61",
+        "floor": 71,
+        "bedrooms": 2,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 38,
+        "name": 774,
+        "price": "$18275596.00",
+        "floor": 64,
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 39,
+        "name": 502,
+        "price": "$13755691.21",
+        "floor": 72,
+        "bedrooms": 5,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 40,
+        "name": 622,
+        "price": "$12040285.47",
+        "floor": 89,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": false
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Teklist",
+    "street": "06140 Bonner Junction",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "available": true,
+    "sales_status": "Sold Out",
+    "construction_status": "Built",
+    "developer": "W.R. Berkley Corporation",
+    "floors": 63,
+    "units": [
+      {
+        "id": 1,
+        "name": 301,
+        "price": "$15594269.32",
+        "floor": 42,
+        "bedrooms": 3,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 2,
+        "name": 554,
+        "price": "$1585287.95",
+        "floor": 42,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 3,
+        "name": 794,
+        "price": "$17602966.18",
+        "floor": 95,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 4,
+        "name": 172,
+        "price": "$2232819.64",
+        "floor": 45,
+        "bedrooms": 5,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 5,
+        "name": 233,
+        "price": "$11769253.55",
+        "floor": 97,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 6,
+        "name": 527,
+        "price": "$3903492.64",
+        "floor": 58,
+        "bedrooms": 5,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 7,
+        "name": 299,
+        "price": "$10308924.06",
+        "floor": 44,
+        "bedrooms": 3,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 8,
+        "name": 155,
+        "price": "$10450139.70",
+        "floor": 99,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 9,
+        "name": 811,
+        "price": "$17850082.07",
+        "floor": 72,
+        "bedrooms": 4,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 10,
+        "name": 433,
+        "price": "$8750015.33",
+        "floor": 63,
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 11,
+        "name": 163,
+        "price": "$12861420.46",
+        "floor": 63,
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 12,
+        "name": 379,
+        "price": "$19383669.18",
+        "floor": 40,
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 13,
+        "name": 449,
+        "price": "$4606861.71",
+        "floor": 89,
+        "bedrooms": 5,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 14,
+        "name": 503,
+        "price": "$13663714.92",
+        "floor": 62,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 15,
+        "name": 598,
+        "price": "$6357534.86",
+        "floor": 78,
+        "bedrooms": 2,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 16,
+        "name": 522,
+        "price": "$14705848.37",
+        "floor": 89,
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 17,
+        "name": 805,
+        "price": "$2725564.18",
+        "floor": 52,
+        "bedrooms": 5,
+        "bathrooms": 1,
+        "available": true
+      },
+      {
+        "id": 18,
+        "name": 194,
+        "price": "$13106360.27",
+        "floor": 89,
+        "bedrooms": 5,
+        "bathrooms": 2,
+        "available": false
+      },
+      {
+        "id": 19,
+        "name": 542,
+        "price": "$11469073.89",
+        "floor": 77,
+        "bedrooms": 5,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 20,
+        "name": 818,
+        "price": "$13443966.82",
+        "floor": 55,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 21,
+        "name": 455,
+        "price": "$16851096.01",
+        "floor": 78,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 22,
+        "name": 786,
+        "price": "$19583961.64",
+        "floor": 63,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 23,
+        "name": 515,
+        "price": "$2415943.95",
+        "floor": 86,
+        "bedrooms": 5,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 24,
+        "name": 624,
+        "price": "$7400614.41",
+        "floor": 72,
+        "bedrooms": 4,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 25,
+        "name": 484,
+        "price": "$4552689.45",
+        "floor": 77,
+        "bedrooms": 1,
+        "bathrooms": 5,
+        "available": true
+      },
+      {
+        "id": 26,
+        "name": 212,
+        "price": "$11389776.81",
+        "floor": 48,
+        "bedrooms": 2,
+        "bathrooms": 5,
+        "available": false
+      },
+      {
+        "id": 27,
+        "name": 732,
+        "price": "$4551273.18",
+        "floor": 69,
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 28,
+        "name": 931,
+        "price": "$5333161.73",
+        "floor": 69,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 29,
+        "name": 321,
+        "price": "$4204346.71",
+        "floor": 65,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": false
+      },
+      {
+        "id": 30,
+        "name": 945,
+        "price": "$16511898.13",
+        "floor": 55,
+        "bedrooms": 2,
+        "bathrooms": 2,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Brainlounge",
+    "street": "85 Barnett Hill",
+    "city": "Albany",
+    "state": "New York",
+    "available": false,
+    "sales_status": "Sold Out",
+    "construction_status": "Planning",
+    "developer": "Ames National Corporation",
+    "floors": 50,
+    "units": [
+      {
+        "id": 1,
+        "name": 251,
+        "price": "$17102533.50",
+        "floor": 46,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 2,
+        "name": 974,
+        "price": "$11417465.76",
+        "floor": 90,
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "available": true
+      },
+      {
+        "id": 3,
+        "name": 699,
+        "price": "$17414286.91",
+        "floor": 84,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 4,
+        "name": 255,
+        "price": "$15466737.76",
+        "floor": 52,
+        "bedrooms": 2,
+        "bathrooms": 4,
+        "available": false
+      },
+      {
+        "id": 5,
+        "name": 776,
+        "price": "$14508069.10",
+        "floor": 86,
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 6,
+        "name": 975,
+        "price": "$4260186.18",
+        "floor": 86,
+        "bedrooms": 1,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 7,
+        "name": 403,
+        "price": "$16765241.20",
+        "floor": 45,
+        "bedrooms": 4,
+        "bathrooms": 1,
+        "available": false
+      },
+      {
+        "id": 8,
+        "name": 425,
+        "price": "$5217094.35",
+        "floor": 84,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": true
+      },
+      {
+        "id": 9,
+        "name": 381,
+        "price": "$18493512.32",
+        "floor": 93,
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "available": true
+      },
+      {
+        "id": 10,
+        "name": 346,
+        "price": "$13839144.11",
+        "floor": 80,
+        "bedrooms": 1,
+        "bathrooms": 3,
+        "available": false
+      }
+    ]
+  }
+]
