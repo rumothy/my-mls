@@ -4,7 +4,7 @@
 
 Major features
 
-- [ ] Map Integration
+- [x] Map Integration
 
 - [ ] Front-End design & layout
 
@@ -26,16 +26,16 @@ Major features
 
 ### Front-End design & layout
 
-Search:
+- [x] Search:
 
-- input for city (autocomplete)
+  - [x] input for city (autocomplete)
 
-- dropdown for price
+  - [x] dropdown for price
 
-- dropdown for beds
+  - [x] dropdown for beds
 
-Convert to React hooks
-
+- [ ] Convert to React hooks
+ 
 ### Autocomplete
 
 On input fo city

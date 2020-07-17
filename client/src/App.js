@@ -5,9 +5,13 @@ import Input from "./components/Input";
 import Button from "./components/Button";
 import API from "./utils/API";
 import { RecipeList, RecipeListItem } from "./components/RecipeList";
-import { Container, Row, Col } from "./components/Grid";
+//import { Container, Row, Col } from "./components/Grid";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import { compose, withProps } from 'recompose';
 import { withScriptjs, withGoogleMap, GoogleMap, Marker} from 'react-google-maps';
+import Dropdown from 'react-bootstrap/Dropdown';
 
 const MyMapComponent = compose(
   withProps({
@@ -56,9 +60,6 @@ class MyFancyComponent extends React.PureComponent{
     )
   }
 }
-
-
-
 
 class App extends Component {
   state = {
@@ -139,6 +140,32 @@ class App extends Component {
                       >
                         Search
                       </Button>
+                    </Col>
+                    <Col>
+                      <Dropdown>
+                        <Dropdown.Toggle variant="success" id="dropdown-basic">
+                          Price
+                        </Dropdown.Toggle>
+
+                        <Dropdown.Menu>
+                          <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                          <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                          <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                        </Dropdown.Menu>
+                      </Dropdown>
+                    </Col>
+                    <Col>
+                      <Dropdown>
+                        <Dropdown.Toggle variant="success" id="dropdown-basic">
+                          Beds
+                        </Dropdown.Toggle>
+
+                        <Dropdown.Menu>
+                          <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                          <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                          <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                        </Dropdown.Menu>
+                      </Dropdown>
                     </Col>
                   </Row>
                 </Container>
