@@ -16,11 +16,13 @@ Major features
 
 ### Map Integration
 
-Google maps
+- [ ] Google maps
 
-API Key
+- [x] API Key
 
-Prototype
+- [ ] Prototype
+
+- [ ] Geocoding API functionality
 
 ### Front-End design & layout
 
