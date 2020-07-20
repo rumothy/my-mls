@@ -2,25 +2,29 @@
 
 ## Project Design
 
-Major features
+Major features (Iteration passes)
 
 - [x] Map Integration
 
-- [ ] Front-End design & layout
+- [x] Front-End design & layout
 
-- [ ] Autocomplete
+- [x] Autocomplete
 
-- [ ] Data Conversion - fake to real
+- [ ] Query Definition
+
+- [ ] Data Conversion
+
+- [ ] Functionality
 
 - [x] Deployment - zip or codesandbox.io
 
 ### Map Integration
 
-- [ ] Google maps
+- [x] Google maps
 
 - [x] API Key
 
-- [ ] Prototype
+- [x] Prototype
 
 - [ ] Geocoding API functionality
 
@@ -35,17 +39,33 @@ Major features
   - [x] dropdown for beds
 
 - [ ] Convert to React hooks
- 
+
 ### Autocomplete
 
-On input fo city
+- [x] On input for location
+
+### Query Definition
+
+- [ ] Refine query
 
 ### Data Conversion
 
-Fake to real
+- [ ] Fake to real
+
+### Functionality
+
+- [ ] Display Search results
+
+- [ ] Map for first two properties
+
+- [ ] Video for first two properties link to vimeo
+
+- [ ] Order by Price
+
+- [ ] Order by Beds
 
 ### Deployment
 
-Zip for now
+- [x] Zip for now
 
-codesandbox.io later
+- [ ] codesandbox.io
