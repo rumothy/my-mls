@@ -12,6 +12,7 @@ import Col from 'react-bootstrap/Col';
 import { compose, withProps } from 'recompose';
 import { withScriptjs, withGoogleMap, GoogleMap, Marker} from 'react-google-maps';
 import Dropdown from 'react-bootstrap/Dropdown';
+import Map from './components/Map';
 
 const MyMapComponent = compose(
   withProps({
@@ -174,10 +175,16 @@ class App extends Component {
           </Row>
           <Row>
             <div style={{ width: '100vw', height: '100vh' }}>
-              <MyFancyComponent isMarkerShown />
+              {/* <MyFancyComponent isMarkerShown /> */}
+            <Map 
+              google={this.props.google}
+              center={{lat: 28.538336, lng: -81.379234}}
+              height='300px'
+              zoom={15}
+            />
             </div>
           </Row>
-          <Row>
+          {/* <Row>
             <Col size="xs-12">
               {!this.state.recipes.length ? (
                 <h1 className="text-center">No Recipes to Display</h1>
@@ -197,7 +204,7 @@ class App extends Component {
                 </RecipeList>
               )}
             </Col>
-          </Row>
+          </Row> */}
         </Container>
       </div>
     );
