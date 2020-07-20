@@ -8,6 +8,20 @@ export default {
   },
 
   getProperties: function(query){
-    return axios.get("/api/properties", { params: { q: query} })  
-  }
+    return axios.get("/api/properties", { params: { q: query } })  
+  },
 };
+
+/*
+class Query {
+  City: string;
+  Price: string?; // If price is set order by price
+  Beds: String?; // If beds is set order by beds
+  // If both are set order by price then beds
+} ???
+
+class ByPriceQuery : Query {
+  Orderby
+}
+
+*/

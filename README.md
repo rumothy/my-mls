@@ -44,25 +44,27 @@ Major features (Iteration passes)
 
 - [x] On input for location
 
+- [ ] Based on input data
+
 ### Query Definition
 
-- [ ] Refine query
-
-### Data Conversion
-
-- [ ] Fake to real
+- [x] Refine query
 
 ### Functionality
 
 - [ ] Display Search results
 
-- [ ] Map for first two properties
+- [ ] Pic for first two properties
 
 - [ ] Video for first two properties link to vimeo
 
 - [ ] Order by Price
 
 - [ ] Order by Beds
+
+### Data Conversion
+
+- [ ] Fake to real
 
 ### Deployment
 

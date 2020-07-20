@@ -2,6 +2,7 @@ import React from 'react';
 import { withGoogleMap, GoogleMap, withScriptjs, InfoWindow, Marker } from 'react-google-maps';
 import Geocode from 'react-geocode';
 import Autocomplete from 'react-google-autocomplete';
+import API from '../../utils/API';
 
 Geocode.setApiKey(process.env.REACT_APP_GOOGLE_KEY)
 Geocode.enableDebug();
@@ -14,6 +15,8 @@ class Map extends React.Component{
             city: '',
             area: '',
             state: '',
+            price: '',
+            beds: '',
             mapPosition: {
                 lat: this.props.center.lat,
                 lng: this.props.center.lng
@@ -35,7 +38,7 @@ class Map extends React.Component{
                 state = this.getState(addressArray);
 
             console.log('city', city, area, state);
-
+ 
             this.setState({ 
                 address: (address) ? address : '',
                 area: (area) ? area : '',
@@ -64,8 +67,10 @@ class Map extends React.Component{
 
     getCity = (addressArray) => {
         let city = '';
+        if (addressArray === undefined) return '';
         for (let i = 0; i < addressArray.length; i++ ){
-            if (addressArray[i].types[0] && 'administrative_area_level_2' === addressArray[i].types[0]) {
+            if (addressArray[i].types[0] &&
+                addressArray[i].types[0] === 'locality'  ) {
                 city = addressArray[i].long_name;
                 return city;
             }
@@ -73,27 +78,25 @@ class Map extends React.Component{
     };
 
     getArea = (addressArray) => {
-        let area = '';
-        for (let i = 0; i < addressArray.length; i++){
-            if (addressArray[i].types[0]){
-                for (let j=0; j < addressArray[i].types.length; j++){
-                    if ('sublocality_level_1' === addressArray[i].types[j]){
-                        area = addressArray[i].long_name;
-                        return area;
-                    }
-                }
+        let county = '';
+        if (addressArray === undefined) return '';
+        for (let i = 0; i < addressArray.length; i++ ){
+            if (addressArray[i].types[0] &&
+                addressArray[i].types[0] === 'administrative_area_level_2'  ) {
+                county = addressArray[i].long_name;
+                return county;
             }
         }
     };
 
     getState = (addressArray) => {
-        let state ='';
-        for (let i=0; i < addressArray.length; i++){
-            for (let j=0; j <addressArray.length; j++){
-                if (addressArray[i].types[0] && 'administrative_area_level_1' === addressArray[i].types[0]){
-                    state = addressArray[i].long_name;
-                    return state;
-                }
+        let state = '';
+        if (addressArray === undefined) return '';
+        for (let i = 0; i < addressArray.length; i++ ){
+            if (addressArray[i].types[0] &&
+                addressArray[i].types[0] === 'administrative_area_level_1'  ) {
+                state = addressArray[i].long_name;
+                return state;
             }
         }
     };
@@ -107,12 +110,25 @@ class Map extends React.Component{
     };
 
     onPlaceSelected = (place) => {
+        if (!('formatted_address' in place)) {
+            return;
+        }
         const address = place.formatted_address,
             addressArray = place.address_components,
             city = this.getCity(addressArray),
             area = this.getArea(addressArray),
             latValue = place.geometry.location.lat(),
             lngValue = place.geometry.location.lng();
+
+            API.getProperties({
+                city: city,
+                price: this.state.price, 
+                beds: this.state.beds
+            }).then(response => { 
+                console.log(response);
+            }, error =>{
+                console.log(error);
+            });
 
             this.setState({
                 address: (address) ? address : '',
