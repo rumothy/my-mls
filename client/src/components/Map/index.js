@@ -3,6 +3,7 @@ import { withGoogleMap, GoogleMap, withScriptjs, InfoWindow, Marker } from 'reac
 import Geocode from 'react-geocode';
 import Autocomplete from 'react-google-autocomplete';
 import API from '../../utils/API';
+import Container from 'react-bootstrap/esm/Container';
 
 Geocode.setApiKey(process.env.REACT_APP_GOOGLE_KEY)
 Geocode.enableDebug();
@@ -17,6 +18,7 @@ class Map extends React.Component{
             state: '',
             price: '',
             beds: '',
+            properties: [],
             mapPosition: {
                 lat: this.props.center.lat,
                 lng: this.props.center.lng
@@ -101,6 +103,14 @@ class Map extends React.Component{
         }
     };
 
+    getProperties = (response) => {
+        return response.map(x=> this.getProperty(x));
+    };
+
+    getProperty = (item) => {
+        console.log(item);
+    };
+
     onChange = (event) => {
         this.setState({ [event.target.name]: event.target.value });
     };
@@ -126,6 +136,8 @@ class Map extends React.Component{
                 beds: this.state.beds
             }).then(response => { 
                 console.log(response);
+                this.getProperties(response.data);
+                this.setState({ properties: response.data})
             }, error =>{
                 console.log(error);
             });
@@ -178,6 +190,8 @@ class Map extends React.Component{
         const AsyncMap = withScriptjs(
             withGoogleMap(
                 props =>
+                <Container>
+
                     <GoogleMap 
                         google={this.props.google}
                         defaultZoom={this.props.zoom}
@@ -196,25 +210,34 @@ class Map extends React.Component{
                             onPlaceSelected={this.onPlaceSelected}
                             types = {['(cities)']}
                         />
-                        {/* <Marker 
-                            google={this.props.google} 
-                            name={'Dolores park'} 
-                            draggable={true}
-                            onDragEnd={this.onMarkerDragEnd}
-                            position={{ lat: this.state.markerPosition.lat, lng: this.state.markerPosition.lng }}
-                            />
+                        <p>{this.state.properties.length} results</p>
+                        <button>Picture/List</button>
+                        <button>ListMode</button>
+                        {this.state.properties.map(property =>  (
+                            <div key={property.id} className="propertyCard" style={{ borderStyle: 'solid'}}>
+                                
+                                <div className='display' style={{ height: '100px', width:'100px'}}>
+                                    <img src="temp"></img>
+                                    <p>property.video/pic</p>
+                                    <button>LikeIcon</button>
+                                    <button>CommentIcon</button>
+                                </div>
+                                <div>
+                                    <h2>{property.name}</h2>
+                                    <p>{property.street} . {property.developer}</p>
+                                    <p>property.maxUnitPrice - property.minUnitPrice |
+                                        {property.units.length} Units | {property.floors} Stories
+                                    </p>
+                                    <p className='badge'>{property.sales_status}</p>
+                                    <p className='badge'>{property.construction_status}</p>
 
-                        <InfoWindow
-                            onClose={this.onInfoWindowClose}
-                            position={{ 
-                                lat: ( this.state.markerPosition.lat + 0.0018),
-                                lng: this.state.markerPosition.lng }}>
-                                    <div>
-                                        <span style={{ padding: 0, margin: 0 }}>{this.state.address}</span>
-                                    </div>
-                        </InfoWindow> */}
-
+                                </div>
+                            </div>) )}
+                
+                          
+   
                     </GoogleMap>
+                </Container>
 
             ));
         let map;
