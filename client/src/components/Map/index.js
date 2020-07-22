@@ -194,9 +194,9 @@ class Map extends React.Component{
                                 marginBottom: '100px'
                             }}
                             onPlaceSelected={this.onPlaceSelected}
-                            types = {['(regions)']}
+                            types = {['(cities)']}
                         />
-                        <Marker 
+                        {/* <Marker 
                             google={this.props.google} 
                             name={'Dolores park'} 
                             draggable={true}
@@ -212,54 +212,55 @@ class Map extends React.Component{
                                     <div>
                                         <span style={{ padding: 0, margin: 0 }}>{this.state.address}</span>
                                     </div>
-                        </InfoWindow>
+                        </InfoWindow> */}
 
                     </GoogleMap>
 
             ));
         let map;
         if (this.props.center.lat != undefined) {
-            map = <div>
+            map = 
                 <div>
-                    <div className="form-group">
-                        <label htmlFor="">City</label>
-                        <input 
-                            type='text' 
-                            name='city' 
-                            className='form-control' 
-                            onChange={this.onChange} 
-                            readOnly='readOnly' 
-                            value={this.state.city} />
+                    <div>
+                        <div className="form-group">
+                            <label htmlFor="">City</label>
+                            <input 
+                                type='text' 
+                                name='city' 
+                                className='form-control' 
+                                onChange={this.onChange} 
+                                readOnly='readOnly' 
+                                value={this.state.city} />
+                        </div>
+                        <div className='form-group'>
+                            <label htmlFor="">Area</label>
+                            <input 
+                                type='text' 
+                                name='area'  
+                                className='form-control'
+                                onChange={this.onChange}
+                                readOnly="readOnly"
+                                value={this.state.area} />
+                        </div>
+                        <div className='form-group'>
+                            <label htmlFor=''>Address</label>
+                            <input 
+                                type='text' 
+                                name='address'
+                                className='form-control'
+                                onChange={this.onChange}
+                                readOnly='readOnly'
+                                value={this.state.address}/>
+                        </div> 
                     </div>
-                    <div className='form-group'>
-                        <label htmlFor="">Area</label>
-                        <input 
-                            type='text' 
-                            name='area'  
-                            className='form-control'
-                            onChange={this.onChange}
-                            readOnly="readOnly"
-                            value={this.state.area} />
-                    </div>
-                    <div className='form-group'>
-                        <label htmlFor=''>Address</label>
-                        <input 
-                            type='text' 
-                            name='address'
-                            className='form-control'
-                            onChange={this.onChange}
-                            readOnly='readOnly'
-                            value={this.state.address}/>
-                    </div> 
+                    <AsyncMap 
+                        googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.REACT_APP_GOOGLE_KEY}`}
+                        loadingElement={<div style={{ height: '100%'}}/>}
+                        containerElement={<div style={{ height: this.props.height}}/>}
+                        mapElement={<div style={{ height: '100%'}}/>}
+                        />
+                        
                 </div>
-                <AsyncMap 
-                    googleMapURL={`https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places&key=${process.env.REACT_APP_GOOGLE_KEY}`}
-                    loadingElement={<div style={{ height: '100%'}}/>}
-                    containerElement={<div style={{ height: this.props.height}}/>}
-                    mapElement={<div style={{ height: '100%'}}/>}
-                    />
-                    
-            </div>
         }
         else {
             map = <div style={{height: this.props.height}}/>
