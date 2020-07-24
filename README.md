@@ -38,6 +38,8 @@ Major features (Iteration passes)
 
   - [x] dropdown for beds
 
+- [ ] Refactor to React Bootstrap components
+
 - [ ] Convert to React hooks
 
 ### Autocomplete
@@ -52,19 +54,25 @@ Major features (Iteration passes)
 
 ### Functionality
 
-- [ ] Display Search results
+- [x] Display Search results
 
-- [ ] Pic for first two properties
+- [ ] Random pic per property
 
-- [ ] Video for first two properties link to vimeo
+- [ ] ~~Video for properties link to vimeo~~
+
+- [ ] Video for properties link
 
 - [ ] Order by Price
 
 - [ ] Order by Beds
 
+- [ ] Paging
+
 ### Data Conversion
 
 - [ ] Fake to real
+
+- [ ] Randomize pictures and videos
 
 ### Deployment
 

@@ -4,7 +4,8 @@ import Geocode from 'react-geocode';
 import Autocomplete from 'react-google-autocomplete';
 import API from '../../utils/API';
 import Container from 'react-bootstrap/esm/Container';
-
+import PictureLinks from '../../utils/pictures.json';
+import VideoLinks from '../../utils/videos.json'
 Geocode.setApiKey(process.env.REACT_APP_GOOGLE_KEY)
 Geocode.enableDebug();
 
@@ -103,12 +104,41 @@ class Map extends React.Component{
         }
     };
 
+    getUnitPriceRange = (property) => {
+        if (!property) return { min: '$0', max: '$0' };
+        const units = property.units;
+        if (!units || units.length == 0) return { min: '$0', max: '$0' };
+        units.sort(this.byPrice);
+        const highest = units[0].price ? units[0].price : '$0';
+        const lowest = units[units.length-1].price ? units[units.length-1].price : '$0';
+        return { min: lowest, max: highest };
+    };
+
+    byPrice = (unitA, unitB) => {
+        const priceA = this.priceToNum(unitA.price);
+        const priceB = this.priceToNum(unitB.price);
+        return priceB-priceA;
+    };
+
+    priceToNum = (price) => {
+        const num= price.slice(-price.length + 1);
+        return Number.parseFloat(num).toFixed(2);
+    };
+    
     getProperties = (response) => {
         return response.map(x=> this.getProperty(x));
     };
 
-    getProperty = (item) => {
-        console.log(item);
+    getProperty = (propertyData) => {
+        const range = this.getUnitPriceRange(propertyData);
+        let property = propertyData;
+        property.minUnitPrice = range.min;
+        property.maxUnitPrice = range.max;
+        //TODO - randomize
+        property.picture = PictureLinks[0];
+        property.video = VideoLinks[0];
+        console.log(property);
+        return property;
     };
 
     onChange = (event) => {
@@ -136,7 +166,7 @@ class Map extends React.Component{
                 beds: this.state.beds
             }).then(response => { 
                 console.log(response);
-                this.getProperties(response.data);
+                const properties = this.getProperties(response.data);
                 this.setState({ properties: response.data})
             }, error =>{
                 console.log(error);
@@ -211,21 +241,32 @@ class Map extends React.Component{
                             types = {['(cities)']}
                         />
                         <p>{this.state.properties.length} results</p>
-                        <button>Picture/List</button>
-                        <button>ListMode</button>
+                        
+                            <form>
+                                <input type="radio" id="picture" name="mode" value="picture"/>
+                                <label htmlFor="picture">Picture</label>
+                                <input type="radio" id="video" name="mode" value="video"/>
+                                <label htmlFor="video">Video</label>
+                                <input type="radio" id="list" name="mode" value="list"/>
+                                <label htmlFor="list">List</label>
+                            </form>
+
+                        
                         {this.state.properties.map(property =>  (
                             <div key={property.id} className="propertyCard" style={{ borderStyle: 'solid'}}>
                                 
                                 <div className='display' style={{ height: '100px', width:'100px'}}>
-                                    <img src="temp"></img>
+                                    <img width={150} height={100} src={property.picture}></img>
                                     <p>property.video/pic</p>
+                                    <iframe width="140" height="105" src={property.video}>
+                                    </iframe>
                                     <button>LikeIcon</button>
                                     <button>CommentIcon</button>
                                 </div>
                                 <div>
                                     <h2>{property.name}</h2>
                                     <p>{property.street} . {property.developer}</p>
-                                    <p>property.maxUnitPrice - property.minUnitPrice |
+                                    <p>{property.maxUnitPrice} - {property.minUnitPrice} |
                                         {property.units.length} Units | {property.floors} Stories
                                     </p>
                                     <p className='badge'>{property.sales_status}</p>
