@@ -1,11 +1,11 @@
 import React from 'react';
-import { withGoogleMap, GoogleMap, withScriptjs, InfoWindow, Marker } from 'react-google-maps';
+import { withGoogleMap, GoogleMap, withScriptjs } from 'react-google-maps';
 import Geocode from 'react-geocode';
-import Autocomplete from 'react-google-autocomplete';
 import API from '../../utils/API';
 import Container from 'react-bootstrap/esm/Container';
-import PictureLinks from '../../utils/pictures.json';
-import VideoLinks from '../../utils/videos.json'
+import Input from "../Input";
+import Button from "../Button";
+import MyAutoComplete from '../../MyAutocomplete';
 Geocode.setApiKey(process.env.REACT_APP_GOOGLE_KEY)
 Geocode.enableDebug();
 
@@ -17,9 +17,10 @@ class Map extends React.Component{
             city: '',
             area: '',
             state: '',
-            price: '',
-            beds: '',
+            price: -1,
+            bedrooms: -1,
             properties: [],
+            propertySearch: "",
             mapPosition: {
                 lat: this.props.center.lat,
                 lng: this.props.center.lng
@@ -27,11 +28,33 @@ class Map extends React.Component{
             markerPosition: {
                 lat: this.props.center.lat,
                 lng: this.props.center.lng
-            }
-        }
+            }, 
+            searchKeys: [],
+            names: [],
+            streets: [],
+            cities: [],
+            states: [],
+        };
+        
     }
 
+
     componentDidMount(){
+        const query =  { 
+            locationsOnly: 'true', 
+            location: '', 
+            price: -1,
+            bedrooms: -1
+        };
+        console.log("componentDidMount: query: ", query)
+        API.getProperties(query)
+        .then(response => {
+            console.log("componentDidMount: API.getProperties, response.data: ", response.data);
+            // response.data: { propertyData: [], locationData: [], mapKey: String }
+            this.setState({ searchKeys: response.data.locationData });
+        })
+        .catch(err => console.log(err));
+
         Geocode.fromLatLng(this.state.mapPosition.lat, this.state.mapPosition.lng)
         .then(response => {
             const address = response.results[0].formatted_address, 
@@ -61,10 +84,10 @@ class Map extends React.Component{
             this.state.area !== nextState.area ||
             this.state.state !== nextState.state
         ){
-            return true
+            return true;
         }
-        else if (this.props.center.lat === nextProps.enter.lat){
-            return false
+        else if (this.props.center.lat === nextProps.center.lat){
+            return false;
         }
     };
 
@@ -104,43 +127,6 @@ class Map extends React.Component{
         }
     };
 
-    getUnitPriceRange = (property) => {
-        if (!property) return { min: '$0', max: '$0' };
-        const units = property.units;
-        if (!units || units.length == 0) return { min: '$0', max: '$0' };
-        units.sort(this.byPrice);
-        const highest = units[0].price ? units[0].price : '$0';
-        const lowest = units[units.length-1].price ? units[units.length-1].price : '$0';
-        return { min: lowest, max: highest };
-    };
-
-    byPrice = (unitA, unitB) => {
-        const priceA = this.priceToNum(unitA.price);
-        const priceB = this.priceToNum(unitB.price);
-        return priceB-priceA;
-    };
-
-    priceToNum = (price) => {
-        const num= price.slice(-price.length + 1);
-        return Number.parseFloat(num).toFixed(2);
-    };
-    
-    getProperties = (response) => {
-        return response.map(x=> this.getProperty(x));
-    };
-
-    getProperty = (propertyData) => {
-        const range = this.getUnitPriceRange(propertyData);
-        let property = propertyData;
-        property.minUnitPrice = range.min;
-        property.maxUnitPrice = range.max;
-        //TODO - randomize
-        property.picture = PictureLinks[0];
-        property.video = VideoLinks[0];
-        console.log(property);
-        return property;
-    };
-
     onChange = (event) => {
         this.setState({ [event.target.name]: event.target.value });
     };
@@ -150,70 +136,66 @@ class Map extends React.Component{
     };
 
     onPlaceSelected = (place) => {
-        if (!('formatted_address' in place)) {
-            return;
-        }
-        const address = place.formatted_address,
-            addressArray = place.address_components,
-            city = this.getCity(addressArray),
-            area = this.getArea(addressArray),
-            latValue = place.geometry.location.lat(),
-            lngValue = place.geometry.location.lng();
-
-            API.getProperties({
-                city: city,
-                price: this.state.price, 
-                beds: this.state.beds
-            }).then(response => { 
-                console.log(response);
-                const properties = this.getProperties(response.data);
-                this.setState({ properties: response.data})
-            }, error =>{
-                console.log(error);
-            });
-
-            this.setState({
-                address: (address) ? address : '',
-                area: (area) ? area : '',
-                city: (city) ? city : '',
-                state: (this.state.state) ? this.state.state : '',
-                markerPosition: {
-                    lat: latValue,
-                    lng: lngValue
-                },
-                mapPosition: {
-                    lat: latValue,
-                    lng: lngValue
-                }
-            });
+        
     };
 
     onMarkerDragEnd = (event) => {
-        console.log('event', event);
-        let newLat = event.latLng.lat(),
-            newLng = event.latLng.lng(),
-            addressArray = [];
-        
-        Geocode.fromLatLng(newLat, newLng).then(
-            response => {
-                const address = response.results[0].formatted_address,
-                    addressArray = response.results[0].address_components,
+       
+    };
+
+    onLocationSelected = (searchKey) => {
+        const query =  { 
+            locationsOnly: 'false', 
+            location: searchKey, 
+            price: this.state.price,
+            bedrooms: this.state.bedrooms 
+        };
+        console.log("onLocationSelected: query: ", query)
+        API.getProperties(query)
+        .then(response => {
+            console.log("onLocationSelected: API.getProperties, response: ", response.data);
+            // response.data: { propertyData: [], locationData: [], mapKey: String }
+            
+            this.doGeocode(response.data);
+        })
+        .catch(err => console.log(err));
+    };
+    
+    doGeocode = ({propertyData, mapKey}) => {
+        Geocode.fromAddress(mapKey)
+                .then(res => {
+                    const place = res.results[0];
+                    const address = place.formatted_address,
+                    addressArray = place.address_components,
                     city = this.getCity(addressArray),
                     area = this.getArea(addressArray),
-                    state = this.getState(addressArray);
+                    latValue = place.geometry.location.lat,
+                    lngValue = place.geometry.location.lng;
 
-                this.setState({
-                    address: (address) ? address: '',
-                    area: (area) ? area : '',
-                    city: (city) ? city : '', 
-                    state: (state) ? state : '',
-                })
-            }, 
-            error => {
-                console.error(error);
-            }
-        );            
-            
+                    this.setState({
+                        address: (address) ? address : '',
+                        area: (area) ? area : '',
+                        city: (city) ? city : '',
+                        state: (this.state.state) ? this.state.state : '',
+                        mapPosition: {
+                            lat: latValue,
+                            lng: lngValue
+                        },
+                        properties: propertyData
+                    });
+                }, err => console.log(err));
+    };
+
+    handlePropertySubmit = (event) => {
+        console.log('handlePropertySubmit', event.target);
+        
+    };
+
+    handleSearchTextChange = (event) => {
+        const { name, value } = event.target;
+        this.setState({
+          [name]: value
+        });
     };
 
     render(){
@@ -221,6 +203,24 @@ class Map extends React.Component{
             withGoogleMap(
                 props =>
                 <Container>
+                    <Input
+                        name="propertySearch"
+                        value={this.state.propertySearch}
+                        onChange={this.handleSearchTextChange}
+                        placeholder="Search For a Property"
+                    />
+                    <Button
+                        onClick={this.handlePropertySubmit}
+                        type="success"
+                        className="input-lg"
+                    >
+                    Search
+                    </Button>
+                    <MyAutoComplete 
+                        // keys={['Afghanistan', 'Albania', 'Algeria']}
+                        keys={this.state.searchKeys}
+                        locationSelected={this.onLocationSelected}
+                    />
 
                     <GoogleMap 
                         google={this.props.google}
@@ -229,60 +229,47 @@ class Map extends React.Component{
                             lat: this.state.mapPosition.lat, lng: this.state.mapPosition.lng 
                         }}
                     >
-                        <Autocomplete 
-                            style={{
-                                width: '100%',
-                                height: '40px',
-                                paddingLeft: '16px',
-                                marginTop: '2px',
-                                marginBottom: '100px'
-                            }}
-                            onPlaceSelected={this.onPlaceSelected}
-                            types = {['(cities)']}
-                        />
-                        <p>{this.state.properties.length} results</p>
+        
+                    <p>{this.state.properties.length} results</p>
                         
-                            <form>
-                                <input type="radio" id="picture" name="mode" value="picture"/>
-                                <label htmlFor="picture">Picture</label>
-                                <input type="radio" id="video" name="mode" value="video"/>
-                                <label htmlFor="video">Video</label>
-                                <input type="radio" id="list" name="mode" value="list"/>
-                                <label htmlFor="list">List</label>
-                            </form>
+                    <form>
+                        <input type="radio" id="picture" name="mode" value="picture"/>
+                        <label htmlFor="picture">Picture</label>
+                        <input type="radio" id="video" name="mode" value="video"/>
+                        <label htmlFor="video">Video</label>
+                        <input type="radio" id="list" name="mode" value="list"/>
+                        <label htmlFor="list">List</label>
+                    </form>
 
                         
-                        {this.state.properties.map(property =>  (
-                            <div key={property.id} className="propertyCard" style={{ borderStyle: 'solid'}}>
-                                
-                                <div className='display' style={{ height: '100px', width:'100px'}}>
-                                    <img width={150} height={100} src={property.picture}></img>
-                                    <p>property.video/pic</p>
-                                    <iframe width="140" height="105" src={property.video}>
-                                    </iframe>
-                                    <button>LikeIcon</button>
-                                    <button>CommentIcon</button>
-                                </div>
-                                <div>
-                                    <h2>{property.name}</h2>
-                                    <p>{property.street} . {property.developer}</p>
-                                    <p>{property.maxUnitPrice} - {property.minUnitPrice} |
-                                        {property.units.length} Units | {property.floors} Stories
-                                    </p>
-                                    <p className='badge'>{property.sales_status}</p>
-                                    <p className='badge'>{property.construction_status}</p>
+                    {this.state.properties.map(property =>  (
+                        <div key={property.id} className="propertyCard" style={{ borderStyle: 'solid'}}>
+                            
+                            <div className='display' style={{ height: '100px', width:'100px'}}>
+                                {/* <img width={150} height={100} src={property.picture} alt='img'></img>
+                                <iframe width="140" height="105" src={property.video} title={property.name}>
+                                </iframe> */}
+                                <button>LikeIcon</button>
+                                <button>CommentIcon</button>
+                            </div>
+                            <div>
+                                <h2>{property.name}</h2>
+                                <p>{property.street} . {property.developer}</p>
+                                <p>{property.priceRange.max} - {property.priceRange.min} |
+                                    {property.units.length} Units | {property.floors} Stories
+                                </p>
+                                <p className='badge'>{property.sales_status}</p>
+                                <p className='badge'>{property.construction_status}</p>
 
-                                </div>
-                            </div>) )}
-                
-                          
-   
+                            </div>
+                        </div>
+                    ))}
                     </GoogleMap>
                 </Container>
 
             ));
         let map;
-        if (this.props.center.lat != undefined) {
+        if (this.props.center.lat !== undefined) {
             map = 
                 <div>
                     <div>

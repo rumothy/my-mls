@@ -1,0 +1,170 @@
+[
+    {
+      "id": 1,
+      "name": "Twitterwire",
+      "street": "744 W Colonial Dr",
+      "city": "Orlando",
+      "state": "Florida",
+      "available": false,
+      "sales_status": "Pre-Sales",
+      "construction_status": "Under Construction",
+      "developer": "Oxford Industries, Inc.",
+      "floors": 79,
+      "units": [
+        {
+          "id": 1,
+          "name": 122,
+          "price": "$6625184.38",
+          "floor": 91,
+          "bedrooms": 1,
+          "bathrooms": 4,
+          "available": false
+        },
+        {
+          "id": 2,
+          "name": 905,
+          "price": "$4308674.15",
+          "floor": 41,
+          "bedrooms": 2,
+          "bathrooms": 4,
+          "available": false
+        },
+        {
+          "id": 3,
+          "name": 377,
+          "price": "$2603394.11",
+          "floor": 94,
+          "bedrooms": 3,
+          "bathrooms": 1,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Jabberbean",
+      "street": "24526 Cascade Drive",
+      "city": "Greensboro",
+      "state": "North Carolina",
+      "available": true,
+      "sales_status": "Sold Out",
+      "construction_status": "Planning",
+      "developer": "Honeywell International Inc.",
+      "floors": 95,
+      "units": [
+        {
+          "id": 1,
+          "name": 251,
+          "price": "$17102533.50",
+          "floor": 46,
+          "bedrooms": 3,
+          "bathrooms": 4,
+          "available": true
+        },
+        {
+          "id": 2,
+          "name": 974,
+          "price": "$11417465.76",
+          "floor": 90,
+          "bedrooms": 1,
+          "bathrooms": 2,
+          "available": true
+        },
+        {
+          "id": 3,
+          "name": 699,
+          "price": "$17414286.91",
+          "floor": 84,
+          "bedrooms": 3,
+          "bathrooms": 4,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Skivee",
+      "street": "59770 Mendota Court",
+      "city": "Colorado Springs",
+      "state": "Colorado",
+      "available": true,
+      "sales_status": "Pre-Sales",
+      "construction_status": "Built",
+      "developer": "Nuveen Dow 30SM Dynamic Overwrite Fund",
+      "floors": 46,
+      "units": [
+        {
+          "id": 1,
+          "name": 251,
+          "price": "$17102533.50",
+          "floor": 46,
+          "bedrooms": 3,
+          "bathrooms": 4,
+          "available": true
+        },
+        {
+          "id": 2,
+          "name": 974,
+          "price": "$11417465.76",
+          "floor": 90,
+          "bedrooms": 1,
+          "bathrooms": 2,
+          "available": true
+        },
+        {
+          "id": 3,
+          "name": 699,
+          "price": "$17414286.91",
+          "floor": 84,
+          "bedrooms": 3,
+          "bathrooms": 4,
+          "available": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Katz",
+      "street": "064 Grasskamp Terrace",
+      "city": "Springfield",
+      "state": "Missouri",
+      "available": false,
+      "sales_status": "Sold Out",
+      "construction_status": "Pre-Launch",
+      "developer": "First Trust Multi-Asset Diversified Income Index Fund",
+      "floors": 50,
+      "units": [
+        {}
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Kayveo",
+      "street": "09 Lake View Junction",
+      "city": "Gainesville",
+      "state": "Georgia",
+      "available": true,
+      "sales_status": "Pre-Sales",
+      "construction_status": "Planning",
+      "developer": "NQ Mobile Inc.",
+      "floors": 62,
+      "units": [
+        {}
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Jayveo",
+      "street": "10 Bake Biew Bunction",
+      "city": "Gainesville",
+      "state": "Georgia",
+      "available": true,
+      "sales_status": "Pre-Sales",
+      "construction_status": "Planning",
+      "developer": "NQ Mobile Inc.",
+      "floors": 62,
+      "units": [
+        {}
+      ]
+    }
+  ]
