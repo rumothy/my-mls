@@ -1,5 +1,5 @@
-// const db = require('../data/MOCK_DATA.json');
-const db = require('../data/testDb.json');
+const db = require('../data/MOCK_DATA.json');
+// const db = require('../data/testDb.json');
 const pics = require('../data/pictures.json');
 const vids = require('../data/videos.json');
 

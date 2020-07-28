@@ -25,7 +25,7 @@ const PropertyResults = (props) => {
                 <ButtonGroup aria-label="Basic example">
                     <Button variant="secondary" onClick={handleModeChange}>Picture</Button>
                     <Button variant="secondary" onClick={handleModeChange}>Video</Button>
-                    <Button variant="secondary" onClick={handleModeChange}>List</Button>
+                    {/* <Button variant="secondary" onClick={handleModeChange}>List</Button> */}
                 </ButtonGroup>
             </Row>
                         

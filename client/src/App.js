@@ -1,16 +1,14 @@
-import React, { Component, useState, useEffect } from "react";
+import React, { Component } from "react";
 import Geocode from 'react-geocode';
 import Jumbotron from "./components/Jumbotron";
 import Nav from "./components/Nav";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Map from './components/Map';
-import Map2 from './components/Map2';
-import PropertyQuery from './components/PropertyQuery';
 import PropertyResults from './components/PropertyResults';
 import API from './utils/API';
-import MyAutocomplete from './MyAutocomplete';
 import Input from './components/Input';
+
 
 Geocode.setApiKey(process.env.REACT_APP_GOOGLE_KEY)
 Geocode.enableDebug();
@@ -22,8 +20,8 @@ class App extends Component {
     key: '',
     matches: [],
     searchKeys: [],
-    price: -1,
-    bedrooms: -1,
+    price: 5000000,
+    bedrooms: 2,
   }
 
   componentDidMount(){
@@ -97,7 +95,7 @@ class App extends Component {
   onLostFocus = event => {
     setTimeout(()=>{
       this.setState({matches: []});
-      }, 5000);
+      }, 1750);
   }
 
   render() {
@@ -110,7 +108,7 @@ class App extends Component {
         <Container>
           <Row>
             <div style={{ width: '100vw' }}>
-            <Map2 
+            <Map 
               // google={this.props.google}
               center={this.state.center}
               height='300px'
@@ -118,17 +116,41 @@ class App extends Component {
             />
             </div>
           </Row>
+          
+          <Row>
+            <label>
+              Price:
+              <Input
+                  value={parseInt(this.state.price) === -1 ? '' : this.state.price}
+                  onChange={(e)=> this.setState({price: e.target.value})}
+                  name="price"
+                  placeholder={pricePlaceholder}
+              />
+            </label>
+            <label>
+              Bedrooms:
+              <Input
+                  value={parseInt(this.state.bedrooms) === -1 ? '' : this.state.bedrooms }
+                  onChange={(e)=> this.setState({bedrooms: e.target.value})}
+                  name="bedrooms"
+                  placeholder={bedroomsPlaceholder}
+              />
+            </label>
+          </Row>
           <Row>
             <div>
-              <input 
+              <label>
+                Search:
+              <Input 
                   id='myInput' 
                   type='text' 
                   name='myKey' 
-                  placeholder="Key" 
+                  placeholder="Location" 
                   onChange={this.handleTyping} 
                   value={this.state.key}
                   onBlur={this.onLostFocus}
               />
+              </label>
               <div id='autocomplete-list'>
                   {this.state.matches.map(match =>  
                       <div 
@@ -139,20 +161,6 @@ class App extends Component {
                   )}
               </div>
             </div> 
-          </Row>
-          <Row>
-            <Input
-                value={parseInt(this.state.price) === -1 ? '' : this.state.price }
-                onChange={(e)=> this.setState({price: e.target.value})}
-                name="price"
-                placeholder={pricePlaceholder}
-            />
-            <Input
-                value={parseInt(this.state.bedrooms) === -1 ? '' : this.state.bedrooms }
-                onChange={(e)=> this.setState({bedrooms: e.target.value})}
-                name="bedrooms"
-                placeholder={bedroomsPlaceholder}
-            />
           </Row>
           <Row>
             <PropertyResults properties={this.state.properties}/>

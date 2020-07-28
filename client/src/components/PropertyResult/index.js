@@ -21,8 +21,8 @@ const PropertyResult = ({property, mode}) => {
                     <p>{property.street} . {property.developer}</p>
                     <p>{property.priceRange.max} - {property.priceRange.min} | {property.units.length} Units | {property.floors} Stories
                     </p>
-                    <Badge variant="primary">Primary</Badge>{' '}
-                    <Badge variant="secondary">Secondary</Badge>{' '}
+                    <Badge variant="primary">{property.sales_status}</Badge>{' '}
+                    <Badge variant="secondary">{property.construction_status}</Badge>{' '}
                 </Card.Text>
                 <Button variant="primary">Like</Button>
                 <Button variant="primary">Comment</Button>
