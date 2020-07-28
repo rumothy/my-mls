@@ -8,7 +8,8 @@ import Map from './components/Map';
 import PropertyResults from './components/PropertyResults';
 import API from './utils/API';
 import Input from './components/Input';
-
+import Col from 'react-bootstrap/Col';
+import Button from 'react-bootstrap/Button'
 
 Geocode.setApiKey(process.env.REACT_APP_GOOGLE_KEY)
 Geocode.enableDebug();
@@ -42,10 +43,10 @@ class App extends Component {
 
   }
 
-  onLocationSelected = (searchKey) => {
+  doSearch = (key) => {
     const query =  { 
       locationsOnly: 'false', 
-      location: searchKey, 
+      location: key, 
       price: this.state.price,
       bedrooms: this.state.bedrooms 
     };
@@ -58,7 +59,6 @@ class App extends Component {
         this.doGeocode(response.data);
     })
     .catch(err => console.log(err));
-    
   }
 
   doGeocode = ({mapKey}) => {
@@ -89,7 +89,7 @@ class App extends Component {
   handleOptionClick = event => {
     this.setState({key: event.target.innerText});
     this.setState({matches: []});
-    this.onLocationSelected(event.target.innerText);
+    //this.onLocationSelected(event.target.innerText);
   }
 
   onLostFocus = event => {
@@ -98,6 +98,13 @@ class App extends Component {
       }, 1750);
   }
 
+  onSearchClick = key => {
+    console.log("key", this.state.key);
+    console.log("price", this.state.price);
+    console.log("bedrooms", this.state.bedrooms);
+    this.doSearch(key);
+  }
+   
   render() {
     const pricePlaceholder = 'Search for properties lower than this price!';
     const bedroomsPlaceholder = 'How many bedrooms are you looking for?';
@@ -118,52 +125,69 @@ class App extends Component {
           </Row>
           
           <Row>
-            <label>
-              Price:
-              <Input
-                  value={parseInt(this.state.price) === -1 ? '' : this.state.price}
-                  onChange={(e)=> this.setState({price: e.target.value})}
-                  name="price"
-                  placeholder={pricePlaceholder}
-              />
-            </label>
-            <label>
-              Bedrooms:
-              <Input
-                  value={parseInt(this.state.bedrooms) === -1 ? '' : this.state.bedrooms }
-                  onChange={(e)=> this.setState({bedrooms: e.target.value})}
-                  name="bedrooms"
-                  placeholder={bedroomsPlaceholder}
-              />
-            </label>
-          </Row>
-          <Row>
-            <div>
+            <Col>
+              <div>
+                  <label>
+                    Search:
+                  <Input 
+                      id='myInput' 
+                      type='text' 
+                      name='myKey' 
+                      placeholder="Location" 
+                      onChange={this.handleTyping} 
+                      value={this.state.key}
+                      onBlur={this.onLostFocus}
+                  />
+                  </label>
+                  <div id='autocomplete-list'>
+                      {this.state.matches.map(match =>  
+                          <div 
+                            key={match.id} 
+                            onClick={this.handleOptionClick}>
+                              <strong>{match.key.substr(0, match.chars)}</strong>{match.key.substr(match.chars)}
+                          </div>
+                      )}
+                  </div>
+              </div> 
+            </Col>
+            <Col>
               <label>
-                Search:
-              <Input 
-                  id='myInput' 
-                  type='text' 
-                  name='myKey' 
-                  placeholder="Location" 
-                  onChange={this.handleTyping} 
-                  value={this.state.key}
-                  onBlur={this.onLostFocus}
-              />
+                Price:
+                <Input
+                    value={parseInt(this.state.price) === -1 ? '' : this.state.price}
+                    onChange={(e)=> this.setState({price: e.target.value})}
+                    name="price"
+                    placeholder={pricePlaceholder}
+                />
               </label>
-              <div id='autocomplete-list'>
-                  {this.state.matches.map(match =>  
-                      <div 
-                        key={match.id} 
-                        onClick={this.handleOptionClick}>
-                          <strong>{match.key.substr(0, match.chars)}</strong>{match.key.substr(match.chars)}
-                      </div>
-                  )}
-              </div>
-            </div> 
+            </Col>
+            <Col>
+              <label>
+                Bedrooms:
+                <Input
+                    value={parseInt(this.state.bedrooms) === -1 ? '' : this.state.bedrooms }
+                    onChange={(e)=> this.setState({bedrooms: e.target.value})}
+                    name="bedrooms"
+                    placeholder={bedroomsPlaceholder}
+                />
+              </label>
+            </Col>
           </Row>
           <Row>
-            <PropertyResults properties={this.state.properties}/>
+            <Col>
+              <Button style={{ marginBottom: '10'}}
+                variant="primary" 
+                type="submit"
+                onClick={() => this.onSearchClick(this.state.key)}
+                >
+                Search
+              </Button>
+            </Col>
+          </Row>
+          <Row>
+            <Col>
+              <PropertyResults properties={this.state.properties}/>
+            </Col>
           </Row>
         </Container>
       </div>

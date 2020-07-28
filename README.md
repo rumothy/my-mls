@@ -10,11 +10,11 @@ Major features (Iteration passes)
 
 - [x] Autocomplete
 
-- [ ] Query Definition
+- [x] Query Definition
 
-- [ ] Data Conversion
+- [x] Data Conversion
 
-- [ ] Functionality
+- [x] Functionality
 
 - [x] Deployment - zip or codesandbox.io
 
@@ -26,7 +26,7 @@ Major features (Iteration passes)
 
 - [x] Prototype
 
-- [ ] Geocoding API functionality
+- [x] Geocoding API functionality
 
 ### Front-End design & layout
 
@@ -38,7 +38,7 @@ Major features (Iteration passes)
 
   - [x] dropdown for beds
 
-- [ ] Refactor to React Bootstrap components
+- [x] Refactor to React Bootstrap components
 
 - [ ] Convert to React hooks
 
@@ -46,7 +46,7 @@ Major features (Iteration passes)
 
 - [x] On input for location
 
-- [ ] Based on input data
+- [x] Based on input data
 
 ### Query Definition
 
@@ -56,23 +56,23 @@ Major features (Iteration passes)
 
 - [x] Display Search results
 
-- [ ] Random pic per property
+- [x] Random pic per property
 
 - [ ] ~~Video for properties link to vimeo~~
 
-- [ ] Video for properties link
+- [x] Video for properties link
 
-- [ ] Order by Price
+- [x] Order by Price
 
-- [ ] Order by Beds
+- [x] Order by Beds
 
 - [ ] Paging
 
 ### Data Conversion
 
-- [ ] Fake to real
+- [ ] ~~Fake to real~~
 
-- [ ] Randomize pictures and videos
+- [x] Randomize pictures and videos
 
 ### Deployment
 
