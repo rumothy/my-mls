@@ -1,12 +1,15 @@
-import React, {useState } from 'react';
+import React, {useState, useEffect } from 'react';
 
 const MyAutocomplete = (props) => {
     const [key, setKey] = useState('');
-    const [keys] = useState(props.keys);
+    const [keys, setKeys] = useState([]);
     const [matches, setMatches] = useState([]);
     // const [matches, setMatches] = useState([{ id: 0, key: 'Afghanistan', val: 0 }]);
     // ['Afghanistan', 'Albania', 'Algeria']
 
+    useEffect(()=>{
+        setKeys(props.keys);
+    },[keys]);
 
     const handleTyping = event => {
         const val = event.target.value;

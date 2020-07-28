@@ -166,5 +166,20 @@
       "units": [
         {}
       ]
+    },
+    {
+      "id": 9,
+      "name": "Cool place",
+      "street": "1 Cool Place Ave",
+      "city": "Miami",
+      "state": "Florida",
+      "available": true,
+      "sales_status": "Pre-Sales",
+      "construction_status": "Planning",
+      "developer": "rumothy llc",
+      "floors": 1,
+      "units": [
+        {}
+      ]
     }
   ]

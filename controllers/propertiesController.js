@@ -1,5 +1,5 @@
-const db = require('../data/MOCK_DATA.json');
-// const db = require('../data/testDb.json');
+// const db = require('../data/MOCK_DATA.json');
+const db = require('../data/testDb.json');
 const pics = require('../data/pictures.json');
 const vids = require('../data/videos.json');
 
@@ -41,7 +41,7 @@ module.exports = {
         return { 
             propertyData: [decoratedProperty], 
             locationData: [],
-            mapKey: property.name
+            mapKey: property.street
         };
     },
 
@@ -90,10 +90,14 @@ module.exports = {
     },
 
     decorateProperty: function(property, query) {
-        let units = property.units;
+        // let units = [{}];
+        // console.log(Object.keys(units[0]).length);
+        
+        // const units = _rectifyUnits(property.units, query.price, query.bedrooms);
+        let units = [];
         if (parseFloat(query.price) > 0){
             units = property.units.filter(unit => 
-                this.priceToNum(unit.price) <= parseFloat(query.price));
+                _priceToNum(unit.price) <= parseFloat(query.price));
         }
         if (parseInt(query.bedrooms) > 0){
             units = units.filter(unit => unit.bedrooms === parseInt(query.bedrooms));
@@ -121,6 +125,7 @@ module.exports = {
         };
     },
 
+    
     getAllNames: function() {
         if (!db || !Array.isArray(db)) return [];
         const result = [];
@@ -195,20 +200,43 @@ module.exports = {
         return { min: lowest, max: highest };
     },
 
+    // priceToNum: function(price){
+    //     if (!price || price.length < 1) return -1;
+    //     const num= price.slice(-price.length + 1);
+    //     return Number.parseFloat(num).toFixed(2);
+    // },
+
     byPrice: function(unitA, unitB){
-        const priceToNum = function(price){
-            const num= price.slice(-price.length + 1);
-            return Number.parseFloat(num).toFixed(2);
-        };
-        const priceA = priceToNum(unitA.price);
-        const priceB = priceToNum(unitB.price);
+        // const priceToNum = function(price){
+        //     const num= price.slice(-price.length + 1);
+        //     return Number.parseFloat(num).toFixed(2);
+        // };
+        const priceA = _priceToNum(unitA.price);
+        const priceB = _priceToNum(unitB.price);
         return priceB-priceA;
     },
 
-    priceToNum: function(price){
-        const num= price.slice(-price.length + 1);
-        return Number.parseFloat(num).toFixed(2);
-    },
+
 
     Nothing: { propertyData: [], locationData: [], mapKey: '' },
 };
+
+function _priceToNum(price){
+    if (!price || price.length < 1) return -1;
+    const num= price.slice(-price.length + 1);
+    return Number.parseFloat(num).toFixed(2);
+}
+
+function _rectifyUnits(units, price, bedrooms) {
+        console.log(Object.keys(units[0]).length);
+        if (!units || units.length < 1 || Object.keys(units[0]).length === 0) return [];
+        let orderedUnits = [];
+        if (parseFloat(price) > 0){
+            orderedUnits = units.filter(unit => 
+                _priceToNum(unit.price) <= parseFloat(price));
+        }
+        if (parseInt(bedrooms) > 0){
+            orderedUnits = orderedUnits.filter(unit => unit.bedrooms === parseInt(bedrooms));
+        }
+        return orderedUnits;
+}
